@@ -1,0 +1,369 @@
+:root {
+	--accounts-bg: rgba(20, 20, 20, 0.8);
+	--accounts-group-bg: rgba(17, 17, 17, 0.4);
+	--accounts-divider-1: rgba(33, 33, 33, 1);
+	--accounts-divider-hover: rgba(45, 45, 45, 1);
+	--accounts-background-border-2: rgba(255, 255, 255, 0.035);
+	--accounts-photo-container-bg: rgba(30, 30, 30, 0.5);
+	--accounts-info-name-text-fg: rgba(255, 255, 255, 0.9);
+	--accounts-entry-name-text-fg: rgba(255, 255, 255, 0.9);
+	--accounts-entry-container-hover: rgba(255, 255, 255, 0.035);
+	--challenger-rank-fg: #a4efff;
+	--grandMaster-rank-fg: #ff9090;
+	--master-rank-fg: #eea8ff;
+	--diamond-rank-fg: #78aeff;
+	--platinum-rank-fg: #8cfeac;
+}
+
+.theme-oled {
+	--accounts-group-bg: rgba(0, 0, 0, 0.3);
+	--accounts-photo-container-bg: rgba(0, 0, 0, 1);
+	--accounts-background-border-2: rgba(30, 30, 30, 1);
+	--accounts-entry-container-hover: rgba(255, 255, 255, 0.06);
+}
+
+.accounts-outer {
+	margin: auto;
+	position: relative;
+}
+
+.accounts-card {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: flex-start;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	pointer-events: all;
+	backface-visibility: hidden !important;
+	z-index: 10;
+	height: 180px;
+	max-height: 180px;
+	border-bottom: 1px solid var(--accounts-divider-1);
+	border-left: 1px solid var(--accounts-divider-1);
+	border-right: 1px solid var(--accounts-divider-1);
+	width: 490px;
+}
+
+.accounts-info-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	padding: 14px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border-right: 1px solid var(--accounts-divider-1);
+	transition: background-color 0.045s ease-in-out,
+		margin-top 0.045s ease-in-out;
+}
+
+.accounts-info-section:hover {
+	background-color: var(--accounts-entry-container-hover);
+}
+.accounts-info-section:hover .accounts-info-name {
+	color: var(--accent);
+}
+
+.accounts-info-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 0 0 5px 0;
+}
+
+.accounts-info-text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.accounts-info-name {
+	font-family: "Inter_SemiBold", serif;
+	max-height: 23px;
+	font-size: 16px;
+	color: var(--accounts-info-name-text-fg);
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: left;
+	margin: -4px 0 2px auto;
+	width: 100%;
+}
+.br_BA .accounts-info-name {
+	font-family: "ChmcBraille_nK5P", "Inter_Medium", serif !important;
+	font-size: 10px !important;
+	letter-spacing: 3px !important;
+}
+.ku_KZ .accounts-info-name {
+	font-family: "Khuzdulerebor_Rjno", "Inter_Medium", serif !important;
+	font-size: 10px !important;
+}
+
+.showmaker {
+	font-size: 15px;
+	margin: -4px auto 3px 0;
+}
+
+.accounts-info-sub {
+	font-family: "RobotoMono_Regular", serif;
+	font-size: 12px;
+	color: var(--card-text-sub);
+	white-space: nowrap;
+	overflow: visible;
+	text-overflow: ellipsis;
+	margin: -2px auto 4px 0;
+	z-index: 1;
+	text-align: left;
+}
+
+.accounts-info-team-logo {
+	display: block;
+	position: relative;
+	width: 35px;
+	height: 35px;
+	background-repeat: no-repeat;
+	background-size: 31px;
+	background-position-y: center;
+	background-position-x: left;
+	box-sizing: border-box;
+	margin: -3px 4px 4px 0;
+}
+.drx-logo {
+	background-size: 27px;
+}
+.dk-logo {
+	background-size: 28px;
+}
+
+.accounts-photo-container {
+	display: block;
+	position: relative;
+	width: 120px;
+	height: 108px;
+	max-height: 108px;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-position-y: -10px;
+	background-position-x: -37px;
+	background-size: 320px;
+	box-sizing: border-box;
+	border: 1px solid var(--accounts-background-border-2);
+	background-color: var(--accounts-photo-container-bg);
+}
+
+.player-photo {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 3;
+	pointer-events: none;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 120px;
+	border-radius: 4px;
+}
+
+.accounts-container {
+	flex: 1;
+	display: inline-block;
+	overflow: hidden;
+	z-index: 2;
+	padding: 0 0 0 55px;
+	height: 100%;
+}
+
+.accounts-scroll {
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: overlay;
+}
+
+.accounts-group {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	padding: 0 20px 0 20px;
+	-webkit-transition: all 0.15s ease;
+	-moz-transition: all 0.15s ease;
+	-o-transition: all 0.15s ease;
+	-ms-transition: all 0.15s ease;
+	transition: all 0.15s ease;
+	background-color: var(--accounts-group-bg);
+	flex: 1;
+}
+
+.accounts-grid {
+	display: grid;
+	justify-items: flex-start;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex: 1;
+	transition: max-height 0.45s;
+	grid-auto-flow: row dense;
+	grid-template-columns: repeat(auto-fit, 489px);
+}
+
+.accounts-card-divider {
+	display: block;
+	height: 100%;
+	width: 1px;
+	background-color: var(--accounts-divider-1);
+}
+
+.accounts-list-section {
+	display: grid;
+	justify-items: flex-start;
+	justify-content: flex-start;
+	align-content: flex-start;
+	padding: 14px 0 14px 0;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto auto;
+	grid-auto-flow: row dense; /* or 'row', 'row dense', 'column dense' */
+	gap: 0 0;
+	flex-grow: 1;
+}
+
+.account-entry-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	background-color: transparent;
+	padding: 7px 7px 7px 14px;
+	overflow: hidden;
+}
+.account-entry-container:hover {
+	background-color: var(--accounts-entry-container-hover);
+}
+.account-entry-container:hover .entry-account-name {
+	color: var(--accent);
+}
+.account-entry-container:hover .entry-sub-normal {
+	color: var(--card-text-sub-hover);
+}
+
+.entry-profile-icon {
+	display: block;
+	position: relative;
+	height: 32px;
+	width: 32px;
+	border-radius: 4px;
+	margin: 0 7px 0 0;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.entry-info-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: center;
+	width: 110px;
+}
+
+.entry-account-name {
+	font-family: "NotoSansKR_Medium", serif;
+	font-size: 13px;
+	color: var(--accounts-entry-name-text-fg);
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: left;
+	z-index: 1;
+	width: 100%;
+}
+.br_BA .entry-account-name {
+	font-family: "ChmcBraille_nK5P", "NotoSansKR_Medium", serif !important;
+	font-size: 12px !important;
+	letter-spacing: 3px !important;
+}
+.entry-account-sub {
+	font-family: "Inter_Regular", serif;
+	font-size: 11px;
+	white-space: nowrap;
+	z-index: 1;
+	text-align: left;
+}
+.entry-account-rank {
+	font-family: "Inter_Regular", serif;
+	font-size: 11px;
+	white-space: nowrap;
+	z-index: 1;
+	text-align: left;
+}
+.ku_KZ .entry-account-rank {
+	font-family: "Khuzdulerebor_Rjno", "Inter_Regular", serif !important;
+	font-size: 7px !important;
+	margin: 3px 0 0 0;
+}
+
+.br_BA .entry-account-sub {
+	font-family: "ChmcBraille_nK5P", "NotoSansKR_Medium", serif !important;
+	font-size: 9px !important;
+	letter-spacing: 2px !important;
+	margin: 1px 0 0 0;
+}
+.ku_KZ .entry-account-sub {
+	font-family: "Khuzdulerebor_Rjno", "Inter_Regular", serif !important;
+	font-size: 7px !important;
+	margin: 3px 0 0 0;
+}
+
+.entry-sub-dot {
+	font-size: 11px !important;
+	color: var(--card-text-sub);
+	margin: 0 2px 0 2px;
+}
+.ku_KZ .entry-sub-dot {
+	font-size: 11px !important;
+	color: var(--card-text-sub);
+	margin: 0 3px 0 3px;
+}
+.entry-sub-normal {
+	color: var(--card-text-sub);
+}
+.Challenger-rank {
+	color: var(--challenger-rank-fg);
+}
+.GrandMaster-rank {
+	color: var(--grandMaster-rank-fg);
+}
+.Master-rank {
+	color: var(--master-rank-fg);
+}
+.Diamond-rank {
+	color: var(--diamond-rank-fg);
+}
+.Platinum-rank {
+	color: var(--platinum-rank-fg);
+}
+
+.entry-sub-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: center;
+}
+
+.section-fixed {
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}

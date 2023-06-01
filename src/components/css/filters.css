@@ -1,0 +1,184 @@
+:root {
+    --players-filter-text: rgba(255, 255, 255, 0.9);
+	--players-filter-active: rgba(255, 255, 255, 0.4);
+}
+
+.players-section-badge .secion-filter {
+	font-family: "Inter_Medium", serif;
+}
+
+.players-section-filter-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+	margin: 0 0 0 auto;
+	column-gap: 9px;
+}
+
+.filter-button {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	backdrop-filter: blur(8px);
+	height: 25px;
+	margin: 0 0 0 10px;
+	padding: 0 4px 0 4px;
+	cursor: pointer;
+    transition: opacity 0.10s ease;
+}
+
+.filter-button-disabled {
+	opacity: 0.4 !important;
+	pointer-events: none !important;
+	user-select: none !important;
+}
+.filter-button-inactive {
+	opacity: 0.30;
+}
+.filter-button-inactive:hover {
+    opacity: 1.0 !important;
+}
+
+/* .filter-button span {
+	text-align: center;
+	pointer-events: none;
+	user-select: none;
+	z-index: 2;
+} */
+.filter-button img {
+	width: 17px;
+	height: 17px;
+	margin: 1px 0 0 10px;
+	opacity: 0.8;
+	/* -webkit-transition: all 0.13s ease;
+	-moz-transition: all 0.13s ease;
+	-o-transition: all 0.13s ease;
+	-ms-transition: all 0.13s ease;
+	transition: all 0.13s ease; */
+}
+.filter-icon-toggled {
+	transform: scaleY(-1);
+}
+.filter-button .filter-text {
+    white-space: nowrap;
+	font-size: 12px;
+	font-family: "Inter_Bold", serif;
+	color: var(--players-filter-text) !important;
+}
+.kr_KR .filter-button .filter-text {
+    font-family: "NotoSansKR_Bold", "Inter_Bold", serif !important;
+}
+.ja_JP .filter-button .filter-text {
+    font-family: "NotoSansJP_Bold", "Inter_Bold", serif !important;
+}
+.filter-button .filter-active {
+    font-size: 12px;
+    font-family: "Inter_SemiBold", serif;
+    color: var(--players-filter-active) !important;
+    margin: 0;
+}
+.filter-button .filter-count {
+    font-size: 12px;
+    font-family: "Inter_SemiBold", serif;
+    color: var(--players-filter-active) !important;
+    margin: 0 0 0 10px;
+}
+
+.card-menu-button .filter-image,
+.card-menu-button-dimmed .filter-image {
+	width: 15px;
+	height: 15px;
+	margin: 0 0 0 10px;
+	opacity: 0.85;
+}
+.filter-image-jungle {
+	width: 16px !important;
+	height: 16px !important;
+}
+.filter-image-support {
+	width: 16px !important;
+	height: 16px !important;
+}
+.card-menu-button .filter-icon {
+	width: 13px;
+	height: 13px;
+	margin: 0 4px 0 auto;
+	opacity: 0.85;
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+.card-menu-button-dimmed .filter-icon {
+	width: 13px;
+	height: 13px;
+	margin: 0 4px 0 auto;
+	opacity: 0.85;
+}
+.card-menu-button-dimmed .filter-icon {
+	opacity: 0.45 !important;
+}
+
+.filter-preview-role
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+    margin: 0 0 0 10px;
+    column-gap: 7px;
+}
+.filter-preview-region
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+    margin: 0 0 0 10px;
+}
+.filter-preview-role .comma-seperator-container,
+.filter-preview-region .comma-seperator-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+}
+.empty-seperator
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+    margin: 0;
+}
+
+.filter-preview-role img {
+    width: 15px;
+	height: 15px;
+	margin: 0;
+	opacity: 0.40;
+}
+.role-item-jungle {
+    width: 17px !important;
+    height: 17px !important;
+}
+
+.filter-preview-role span,
+.filter-preview-region span
+{
+    font-size: 13px;
+    font-family: "Inter_Bold", serif;
+    color: var(--players-filter-active) !important;
+    text-transform: uppercase;
+}
+
+.comma {
+    margin: 0 5px 0 2px !important;
+}

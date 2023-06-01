@@ -1,0 +1,139 @@
+:root {
+    --notification-bar-bg: rgba(20, 20, 20, 1);
+    --notification-banner-bg: rgba(5, 5, 5, 1);
+    --notification-content-fg: rgba(255, 255, 255, 0.8);
+    --notification-close-fg: rgba(255, 255, 255, 0.45);
+    --notification-bg-shadow: rgba(0, 0, 0, 0.35);
+}
+
+.notification-bar {
+	display: flex;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	height: 35px;
+	width: 100%;
+	max-width: 100%;
+	z-index: 10;
+	box-sizing: content-box;
+	background-color: var(--notification-bar-bg);
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	padding: 0 0 1px 0;
+}
+
+.notification-banner {
+	display: flex;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	cursor: pointer;
+	z-index: 10;
+	box-sizing: content-box;
+	background-color: var(--notification-banner-bg);
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	border: 1px solid var(--accounts-divider-1);
+	border-radius: 0;
+	padding: 2px;
+	box-shadow: 0 0 25px 0 var(--notification-bg-shadow);
+}
+
+.notif-off {
+	display: none !important;
+}
+
+.notification-inner {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+}
+
+.notification-photo {
+	height: 60px;
+	width: 60px;
+	z-index: 3;
+	pointer-events: none;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 42px;
+}
+
+.notification-banner-text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: flex-start;
+	margin: 0 70px 0 6px;
+}
+
+.notification-banner-name {
+	font-family: "Inter_Bold", "NotoSansKR_Medium", serif;
+	font-size: 14px;
+	color: var(--accent);
+	white-space: nowrap;
+	text-align: left;
+	letter-spacing: 0.05em;
+}
+.notification-banner-text {
+	font-family: "Inter_Meduim", "NotoSansKR_Medium", serif;
+	font-size: 13px;
+	color: var(--notification-content-fg);
+	white-space: nowrap;
+	text-align: left;
+	letter-spacing: 0.05em;
+}
+
+.notification-content-text {
+	font-family: "Inter_Regular", serif;
+	font-size: 12px;
+	color: var(--notification-content-fg);
+	white-space: nowrap;
+	text-align: left;
+	letter-spacing: 0.05em;
+	margin-left: 55px;
+}
+
+.notification-content-text a {
+	color: var(--accent) !important;
+	cursor: pointer;
+	text-decoration: underline;
+	font-family: "Inter_Bold", serif;
+}
+
+.notification-close {
+	display: flex;
+	position: absolute;
+	right: 0;
+	width: 18px;
+	height: 100%;
+	padding: 0 15px 0 15px;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin-left: 3px;
+}
+
+.notification-close span {
+	font-family: "Inter_Regular", serif;
+	font-size: 12px;
+	color: var(--notification-close-fg);
+	white-space: nowrap;
+	text-align: left;
+	letter-spacing: 0.05em;
+}
+
+.notification-close img {
+	display: block;
+	width: 12px;
+	height: 12px;
+	opacity: 0.8;
+}

@@ -1,0 +1,301 @@
+:root {
+	--sidebar-button-hover: rgba(45, 45, 45, 0.45);
+	--sidebar-button-active: rgba(40, 40, 40, 0.55);
+	--sidebar-button-active-hover: rgba(45, 45, 45, 0.65);
+	--sidebar-button-border-top-shadow: rgba(70, 70, 70, 0.6);
+	--sidebar-button-border-bottom: rgba(70, 70, 70, 0.6);
+	--sidebar-notification-bg: rgba(255, 0, 0, 1);
+	--sidebar-notification-border: rgba(30, 30, 30, 1);
+	--sidebar-favorites-group-title-text-fg: rgba(255, 255, 255, 0.3);
+	--sidebar-favorites-game-timer-text-fg: rgba(255, 255, 255, 0.6);
+	--sidebar-favorites-game-timer-bg: rgba(23, 23, 23, 1);
+	--card-image-mask-0: rgba(0, 0, 0, 0);
+	--card-image-mask-1: rgba(0, 0, 0, 1);
+	--card-image-mask-40: rgba(0, 0, 0, 0.4);
+	--sidebar-button-bg: rgba(40, 40, 40, 0.95);
+	--sidebar-button-bg-hover: rgba(45, 45, 45, 0.95);
+    --sidebar-bg: rgba(0, 0, 0, 1);
+    --sidebar-bg-disabled: rgba(20, 20, 20, 0.75);
+    --sidebar-border-right: rgba(28, 28, 28, 1);
+    --sidebar-button-active-border: rgba(255, 187, 0, 0.95);
+    --sidebar-button-border-top: rgba(0, 0, 0, 1);
+    --sidebar-button-border-bottom-shadow: rgba(0, 0, 0, 1);
+}
+
+.settings-sidebar {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 60px;
+	height: 100%;
+	pointer-events: all;
+	z-index: 99;
+	background-color: var(--sidebar-bg);
+	border-right: 1px solid var(--sidebar-border-right);
+}
+
+.favorite-button {
+	position: relative;
+	pointer-events: all;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	margin: 7px 0 7px 0;
+	width: 46px;
+	height: 66px;
+	min-height: 66px;
+	cursor: pointer;
+	border-radius: 0 0 4px 4px;
+	box-sizing: content-box;
+	transition: all 0.07s ease;
+	overflow: hidden;
+}
+
+.favorite-champ-bg {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-radius: 6px;
+	height: 46px;
+	width: 46px;
+	background-color: rgb(47, 47, 47);
+	background-size: 60px;
+	background-position: center;
+	z-index: 1;
+	mask-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(var(--card-image-mask-1)),
+		to(var(--card-image-mask-0))
+	);
+	-webkit-mask-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(var(--card-image-mask-1)),
+		to(var(--card-image-mask-0))
+	);
+	margin-bottom: 9px;
+}
+
+.favorite-button:hover .favorite-champ-bg {
+	mask-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(var(--card-image-mask-1)),
+		to(var(--card-image-mask-1))
+	);
+	-webkit-mask-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(var(--card-image-mask-1)),
+		to(var(--card-image-mask-1))
+	);
+}
+
+.favorite-button img {
+	position: relative;
+	width: 150%;
+	height: 55px;
+	border-radius: 0 0 10px 10px;
+	z-index: 2;
+	margin-bottom: 13px;
+}
+
+.favorite-game-timer-text {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+	width: 50px;
+	background-color: var(--sidebar-favorites-game-timer-bg);
+	padding: 4px 0 3px 0;
+	border-radius: 0 0 6px 6px;
+	font-family: "RobotoMono_Regular", serif !important;
+	text-align: center;
+	font-size: 10px;
+	color: var(--sidebar-favorites-game-timer-text-fg);
+	pointer-events: none;
+	z-index: 3 !important;
+	user-select: none;
+}
+
+.sidebar-button {
+	pointer-events: all;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	padding: 20px 0 20px 1px;
+	width: 100%;
+	cursor: pointer;
+	transition: background-color 0.07s ease;
+}
+
+#sb-live img {
+	width: 18px;
+}
+#sb-cq img {
+	width: 21px;
+}
+#sb-players img {
+	width: 19px;
+}
+#sb-history img {
+	width: 17px;
+}
+#sb-settings img {
+	width: 19px;
+}
+
+.sidebar-button:active img {
+	opacity: 0.4 !important;
+}
+
+.sidebar-button img {
+	opacity: 0.2;
+	user-select: none;
+	pointer-events: none;
+}
+.sidebar-button:hover img {
+	opacity: 0.47;
+}
+
+#settings-button {
+	margin-bottom: 14px !important;
+}
+.sidebar-button-active {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.sidebar-button-active img {
+	opacity: 0.7 !important;
+	margin-bottom: 1px;
+}
+
+.sidebar-button-disabled {
+	opacity: 0.45 !important;
+	pointer-events: none !important;
+	user-select: none !important;
+}
+
+.sidebar-logo {
+	display: block;
+	z-index: 10;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 3px;
+	width: 28px;
+	margin: 23px 0 30px 0;
+}
+
+.sidebar-group {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	width: 100%;
+}
+
+.pages-group {
+	box-sizing: border-box;
+	margin: 46px 0 auto 0;
+	padding: 7px 0 0 0;
+}
+.settings-group {
+	box-sizing: border-box;
+}
+
+.favorites-group {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.favorites-scroll {
+	position: absolute;
+	display: inline-flex;
+	align-items: center;
+	align-content: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	right: -19px;
+	left: 0;
+	padding: 7px 0 0 0;
+}
+
+.favorites-group-title {
+	font-family: "Inter_Medium", serif;
+	text-transform: uppercase;
+	font-size: 9px;
+	color: var(--sidebar-favorites-group-title-text-fg);
+	text-align: center;
+	margin: 5px 0 auto 0;
+}
+
+.borders-top {
+	border-top: 1px solid var(--sidebar-button-border-top);
+	box-shadow: inset 0 1px 0 var(--sidebar-button-border-top-shadow);
+}
+.borders-bottom {
+	border-bottom: 1px solid var(--sidebar-button-border-bottom);
+	box-shadow: inset 0 -1px 0 var(--sidebar-button-border-bottom-shadow);
+}
+.borders-both {
+	border-top: 1px solid var(--sidebar-button-border-top);
+	border-bottom: 1px solid var(--sidebar-button-border-bottom);
+	box-shadow: inset 0 1px 0 var(--sidebar-button-border-top-shadow),
+		inset 0 -1px 0 var(--sidebar-button-border-bottom-shadow);
+}
+
+.notification-dot {
+	display: inline;
+	margin: 0 0.1em 0 0.1em;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	height: 6px;
+	width: 6px;
+	border-radius: 6px;
+	border: 2px solid var(--sidebar-notification-border);
+	pointer-events: none;
+	user-select: none;
+	background-color: var(--sidebar-notification-bg);
+	z-index: 3;
+}
+
+@keyframes showHideNotification {
+	0% {
+		opacity: 0.65;
+	}
+	50% {
+		opacity: 0.95;
+	}
+	60% {
+		opacity: 0.95;
+	}
+	100% {
+		opacity: 0.65;
+	}
+}

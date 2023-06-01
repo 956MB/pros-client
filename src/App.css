@@ -1,0 +1,434 @@
+:root {
+    --tooltip-bg: rgba(20, 20, 20, 0.80);
+    --tooltip-text-fg: rgba(255, 255, 255, 0.75);
+    --app-background: rgba(0,0,0,1.0);
+    --app-background-2: rgba(5,5,5,0.92);
+    --app-background-2-hovered: rgba(20,20,20,0.75);
+    --app-background-overlay: rgba(0,0,0,0.89);
+    --app-background-section: rgba(0,0,0,0.50);
+    --app-scrollbar-track: rgba(19, 19, 19, 0.90);
+    --app-scrollbar-thumb: rgba(255, 255, 255, 0.12);
+    --app-scrollbar-thumb-hover: rgba(255, 255, 255, 0.19);
+    --app-scrollbar-thumb-active: rgba(255, 255, 255, 0.26);
+    --app-selection-bg: rgb(225, 225, 225);
+    --app-selection-fg: rgb(0, 0, 0);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 18px;
+    backdrop-filter: blur(8px);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: var(--app-scrollbar-track);
+    border: 6px solid transparent;
+    border-radius: 10px;
+    background-clip: content-box;
+    backdrop-filter: blur(5px);
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: var(--app-scrollbar-thumb);
+    border: 6px solid transparent;
+    border-radius: 10px;
+    background-clip: content-box;
+}
+/* Handle hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--app-scrollbar-thumb-hover);
+    border: 6px solid transparent;
+    border-radius: 10px;
+    background-clip: content-box;
+}
+/* Handle active */
+::-webkit-scrollbar-thumb:active {
+    background-color: var(--app-scrollbar-thumb-active);
+    border: 6px solid transparent;
+    border-radius: 10px;
+    background-clip: content-box;
+}
+
+::selection {
+    background: var(--app-selection-bg); /* WebKit/Blink Browsers */
+    color: var(--app-selection-fg);
+}
+::-moz-selection {
+    background: var(--app-selection-bg); /* Gecko Browsers */
+    color: var(--app-selection-fg);
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+.select {
+    cursor: default;
+    -webkit-user-select: text;  /* Chrome 49+ */
+    -moz-user-select: text;     /* Firefox 43+ */
+    -ms-user-select: text;      /* No support yet */
+    user-select: text;          /* Likely future */
+}
+.select-selection {
+    cursor: text;
+    -webkit-user-select: text;  /* Chrome 49+ */
+    -moz-user-select: text;     /* Firefox 43+ */
+    -ms-user-select: text;      /* No support yet */
+    user-select: text;          /* Likely future */
+}
+
+.transition-0_08s {
+    transition: all 0.08s ease;
+}
+.transition-0_1s {
+    transition: all 0.1s ease;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+@font-face {
+    font-family: 'Inter_Light';
+    src: url('src/assets/fonts/Inter Desktop/Inter-Light.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Inter_Regular';
+    src: url('src/assets/fonts/Inter Desktop/Inter-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter_Medium';
+    src: url('src/assets/fonts/Inter Desktop/Inter-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Inter_SemiBold';
+    src: url('src/assets/fonts/Inter Desktop/Inter-SemiBold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Inter_Bold';
+    src: url('src/assets/fonts/Inter Desktop/Inter-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'NotoSansKR_Light';
+    src: url('src/assets/fonts/Noto_Sans_KR/NotoSansKR-Light.otf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'NotoSansKR_Regular';
+    src: url('src/assets/fonts/Noto_Sans_KR/NotoSansKR-Regular.otf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'NotoSansKR_Medium';
+    src: url('src/assets/fonts/Noto_Sans_KR/NotoSansKR-Medium.otf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'NotoSansKR_Bold';
+    src: url('src/assets/fonts/Noto_Sans_KR/NotoSansKR-Bold.otf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'NotoSansJP_Light';
+    src: url('src/assets/fonts/Noto_Sans_JP/NotoSansJP-Light.otf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'NotoSansJP_Regular';
+    src: url('src/assets/fonts/Noto_Sans_JP/NotoSansJP-Regular.otf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'NotoSansJP_Medium';
+    src: url('src/assets/fonts/Noto_Sans_JP/NotoSansJP-Medium.otf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'NotoSansJP_Bold';
+    src: url('src/assets/fonts/Noto_Sans_JP/NotoSansJP-Bold.otf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'NotoSansJP_Black';
+    src: url('src/assets/fonts/Noto_Sans_JP/NotoSansJP-Black.otf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'RobotoMono_Regular';
+    src: url('src/assets/fonts/Roboto_Mono/static/RobotoMono-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'RobotoMono_Medium';
+    src: url('src/assets/fonts/Roboto_Mono/static/RobotoMono-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'RobotoMono_SemiBold';
+    src: url('src/assets/fonts/Roboto_Mono/static/RobotoMono-SemiBold.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Braille_1lA2';
+    src: url('src/assets/fonts/braille-font/Braille-1lA2.ttf');
+}
+@font-face {
+    font-family: 'BrailleLine_7G3B';
+    src: url('src/assets/fonts/braille-line-font/BrailleLine-7G3B.ttf');
+}
+@font-face {
+    font-family: 'ChmcBraille_nK5P';
+    src: url('src/assets/fonts/chmc-braille-font/ChmcBraille-nK5P.otf');
+}
+@font-face {
+    font-family: 'Khuzdulerebor_Rjno';
+    src: url('src/assets/fonts/khuzdulerebor-font/Khuzdulerebor-Rjno.ttf');
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltip-text {
+    display: none;
+    background-color: var(--tooltip-bg);
+    backdrop-filter: blur(4px);
+    color: var(--tooltip-text-fg);
+    text-align: center;
+    font-family: 'RobotoMono_Regular', serif;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    position: absolute;
+    z-index: 99 !important;
+}
+
+.tooltip .tooltip-text-delay {
+    display: block;
+    background-color: var(--tooltip-bg);
+    backdrop-filter: blur(4px);
+    color: var(--tooltip-text-fg);
+    text-align: center;
+    font-family: 'RobotoMono_Regular', serif;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 99 !important;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.br_BA .tooltip .tooltip-text,
+.br_BA .tooltip .tooltip-text-delay
+{
+    font-family: 'ChmcBraille_nK5P', 'Inter_Medium', serif !important;
+    letter-spacing: 3px !important;
+}
+.ku_KZ .tooltip .tooltip-text,
+.ku_KZ .tooltip .tooltip-text-delay
+{
+    font-family: 'Khuzdulerebor_Rjno', 'Inter_Medium', serif !important;
+    font-size: 9px;
+    padding: 6px 9px 6px 9px;
+    letter-spacing: 1px !important;
+}
+
+.tooltip-right {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100%;
+    animation: fadeInRight 0.1s normal forwards ease-in-out;
+}
+.tooltip-left {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 100%;
+    animation: fadeInLeft 0.1s normal forwards ease-in-out;
+}
+.tooltip-bottom {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    animation: fadeInBottom 0.1s normal forwards ease-in-out;
+}
+.tooltip-top {
+    bottom: 100%;
+    left: 50%;
+    width: 100px;
+    transform: translateX(-50%);
+    animation: fadeInTop 0.1s normal forwards ease-in-out;
+}
+
+.right-close {
+    left: 100%;
+    white-space: nowrap;
+    animation: fadeInRightClose 0.1s normal forwards ease-in-out !important;
+}
+.left-close {
+    right: 85%;
+    white-space: nowrap;
+    animation: fadeInLeftClose 0.1s normal forwards ease-in-out !important;
+}
+.right-far {
+    left: 100%;
+    white-space: nowrap;
+    animation: fadeInRightFar 0.1s normal forwards ease-in-out !important;
+}
+.left-far {
+    right: 100%;
+    white-space: nowrap;
+    animation: fadeInLeftFar 0.1s normal forwards ease-in-out !important;
+}
+
+@keyframes fadeInLeft {
+    50% { right: 105%; }
+    75% { right: 110%; }
+    100% { right: 115%; }
+}
+@keyframes fadeInRight {
+    50% { left: 105%; }
+    75% { left: 110%; }
+    100% { left: 115%; }
+}
+@keyframes fadeInRightClose {
+    50% { left: 100%; }
+    75% { left: 102%; }
+    100% { left: 105%; }
+}
+@keyframes fadeInLeftClose {
+    50% { right: 90%; }
+    75% { right: 95%; }
+    100% { right: 100%; }
+}
+@keyframes fadeInRightFar {
+    50% { left: 105%; }
+    75% { left: 110%; }
+    100% { left: 115%; }
+}
+@keyframes fadeInLeftFar {
+    50% { right: 112%; }
+    75% { right: 124%; }
+    100% { right: 131%; }
+}
+@keyframes fadeInTop {
+    50% { bottom: 110%; }
+    75% { bottom: 120%; }
+    100% { bottom: 125%; }
+}
+@keyframes fadeInBottom {
+    50% { top: 110%; }
+    75% { top: 120%; }
+    100% { top: 125%; }
+}
+
+.tooltip:hover .tooltip-text {
+    display: block;
+    z-index: 99 !important;
+}
+
+.tooltip:hover .tooltip-text-delay {
+    opacity: 1;
+    visibility: visible;
+    transition: all 200ms;
+    transition-delay: 0.8s;
+    z-index: 99 !important;
+}
+
+.app {
+    background-color: var(--app-background);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-width: 1040px; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+
+.app-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -30px;
+    background-position-x: center;
+    opacity: 0.07;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(1);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.app-background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    filter: grayscale(1);
+    opacity: 0.70;
+}
+
+.dark-overlay {
+    position: absolute;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, var(--app-background-overlay) 0%, var(--app-background-overlay) 30%, var(--app-background) 100%);
+    z-index: 1;
+}
+
+.app-inner {
+    display: flex;
+    padding-left: 55px;
+    height: 100%;
+}
+
+.border-bottom {
+    width: 100%;
+    height: 1px;
+    background-color: #353535;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}

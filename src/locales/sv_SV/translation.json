@@ -1,0 +1,249 @@
+{
+    "modes": {
+        "ARAM": "ARAM",
+        "URF": "URF",
+        "all": "Allt",
+        "normalBlind": "Normal Blind",
+        "normalDraft": "Normalt utkast",
+        "rankedFlex": "Rankad Flex",
+        "rankedSoloDuo": "Rangordnad solo/duo"
+    },
+    "regions": {
+        "br": "BR",
+        "eun": "EUN",
+        "euw": "EUW",
+        "jp": "JP",
+        "kr": "KR",
+        "na": "NA",
+        "oce": "OCE",
+        "ru": "RU",
+        "world": "Värld"
+    },
+    "roles": {
+        "any": "Några",
+        "bottom": "Botten",
+        "jungle": "Djungel",
+        "middle": "Mitten",
+        "support": "Stöd",
+        "top": "Topp"
+    },
+    "cq": {
+        "pages": {
+            "streams": {
+                "title": "Bäckar"
+            },
+            "leaderboards": {
+                "title": "Topplistor",
+                "controls": {
+                    "rank": "RANG",
+                    "lp": "LP",
+                    "name": "NAMN",
+                    "socials": "SOCIALA"
+                }
+            },
+            "matches": {
+                "title": "Tändstickor"
+            }
+        },
+        "title": "Kammarkö"
+    },
+    "settings": {
+        "pages": {
+            "shortcuts": {
+				"title": "Tangentbordsgenvägar"
+            },
+            "accessability": {
+				"title": "Tillgång"
+            },
+            "about": {
+                "title": "Handla om",
+                "description": "Prospec är en gratis och öppen källkod för skrivbordsklient för att spåra och spektera Professional League of Legends Players.Denna applikation är en slags 'uppgradering' eller alternativ till OP.ggs 'Pro Matches' -funktion.",
+                "thanks": {
+                    "title": "Tack",
+                    "Jason Chan": "Standard app bakgrundsemble.Misc Champion Splash Art.",
+                    "Sephi Lash": "Katarina Splash Artwork.",
+                    "Adrien Gonzalez": "Olika mästare Splash Art Concepts.Caitlyn.Jhin.",
+                    "Riot Games": "Champion Splash Art, Champion -ikoner, profilikoner, etc.",
+                    "Metafy.gg": "Champion Splash Art Cutouts."
+                },
+                "changelog": "Byte",
+                "package": "Tredjepartsprogramvara - Licens (er)",
+                "github": "Github",
+                "checkForUpdates": "Sök efter uppdateringar"
+            },
+            "application": {
+                "items": {
+                    "Accent": {
+						"description": "",
+                        "title": "Accent"
+                    },
+                    "appScale": {
+						"description": "",
+                        "title": "Ansökan skala"
+                    },
+                    "appLanguage": {
+						"description": "",
+                        "title": "Språk"
+                    },
+                    "dark": {
+						"description": "",
+                        "title": "Mörk"
+                    },
+                    "notifications": {
+                        "description": "Favoritproffs får aviseringar när de startar ett spel (Automatisk uppdatering på)",
+                        "title": "Favoritaviseringar"
+                    },
+                    "hardwareAcceleration": {
+                        "description": "Hårdvaruacceleration använder GPU:n för att få PROSPEC att fungera smidigare",
+                        "title": "Hårdvaruacceleration"
+                    },
+                    "showAnimations": {
+						"description": "Visa UI -animationer App Wide",
+						"title": "Animationer"
+					},
+                    "keyboardMode": {
+                        "description": "Aktiverar appnavigering med tangentbordet",
+                        "title": "Tangentbordsläge"
+                    },
+                    "light": {
+						"description": "",
+                        "title": "Ljus"
+                    },
+                    "minimizeToTray": {
+                        "description": "Stäng-knappen ska minimera, inte avsluta",
+                        "title": "Minimera till bricka"
+                    },
+                    "openOnStartup": {
+						"description": "",
+                        "title": "Öppna vid start"
+                    },
+                    "useBackground": {
+                        "description": "Välj om app visar bakgrundsbilder som Splash Art eller inte",
+                        "title": "Använd bakgrunder"
+                    },
+                    "randomBackground": {
+                        "description": "Välj appbakgrund som ska väljas slumpmässigt från Champion Pool, eller ställ in den till en specifik standard",
+                        "title": "Slumpmässig bakgrund"
+                    },
+                    "liveBackground": {
+                        "description": "Kommer att använda den animerade versionen av en stänkkonst istället för standardbilden (Om möjligt)",
+                        "title": "Levande bakgrunder"
+                    },
+                    "system": {
+						"description": "",
+                        "title": "Systemet"
+                    },
+                    "oled": {
+						"description": "",
+                        "title": "OLED"
+                    },
+                    "appTheme": {
+						"description": "",
+                        "title": "Tema"
+                    }
+                },
+                "title": "Ansökan"
+            },
+            "content": {
+                "items": {
+                    "autoRefresh": {
+						"description": "",
+                        "title": "Automatisk omladdning"
+                    },
+                    "card": {
+						"description": "",
+                        "title": "Kort"
+                    },
+                    "list": {
+						"description": "",
+                        "title": "Lista"
+                    },
+                    "listLayout": {
+						"description": "",
+                        "title": "Listlayout"
+                    },
+                    "refreshInterval": {
+                        "description": "Hur många sekunder/min ska du uppdatera listan över proffs (3m+ rekommenderas på grund av LoL API-hastighetsgränser)",
+                        "title": "Uppdateringsintervall"
+                    },
+                    "showRandomSkins": {
+                        "description": "Visar slumpmässiga skalbakgrunder istället för standardskalkonst",
+                        "title": "Visa slumpmässiga skal"
+                    },
+                    "showSummonerIds": {
+                        "description": "Visar spelarens kallelse-ID (Göm på bush), istället för gamertag (Faker)",
+                        "title": "Visa uppmanar-ID"
+                    },
+                    "showTeamLogos": {
+                        "description": "Visar lagets logotyp i stället för nuvarande mästare på kort",
+                        "title": "Visa teamlogotyper"
+                    },
+                    "useCutouts": {
+                        "description": "Använder genomskinliga champion-utskärningar istället för att ladda stänkkonst",
+                        "title": "Använd utskärningar"
+                    },
+                    "showUnavailable": {
+                        "description": "Visar spelarkort som för närvarande inte är tillgängliga för att åstadkomma (Fel i Spectator API, eller spelar för närvarande inte)",
+                        "title": "Visa sig inte"
+                    }
+                },
+                "title": "Innehåll"
+            },
+            "language": {
+                "title": "Språk",
+                "add": "Ser du inte det språk du vill ha? <a title=https://github.com/956MB/PROSPEC/tree/master/src/locale href=https://github.com/956MB/PROSPEC/tree/master/src/locale target=\"_blank\" rel=\"noopener noreferrer\">Lägg till det!</a>"
+            }
+        },
+        "title": "Inställningar"
+    },
+    "titlebar": {
+        "lastRefresh": "Senaste uppdatering: {{insert}}",
+        "searchPlaceholder": "Sök",
+        "searchSettingsPlaceholder": "Sökinställningar",
+        "searchPlayersPlaceholder": "Sökspelare"
+    },
+    "sidebar": {
+        "settings": "Inställningar",
+        "live": "Hitta spel",
+        "players": "Speldatabas",
+        "history": "Senaste spel",
+        "cq": "Kammarkö",
+        "favorites": "Favoriter"
+    },
+    "titles": {
+        "favorites": "Favoriter",
+        "all": "Alla spelare",
+        "accounts": "Konton"
+    },
+    "tooltips": {
+        "playerUnavailable": "{{insert}} är antingen inte i ett spel, eller åskådare är inte tillgänglig",
+        "noFavorites": "Inga favoriter tillagda",
+        "noPlayersLoaded": "Inga spelare laddade",
+        "copy": "Kopiera",
+        "copied": "Kopierad",
+        "show": "Show",
+        "hide": "Dölj"
+    },
+    "notifications": {
+        "gameStart": "har precis startat ett spel!",
+        "live": "har precis gått live!"
+    },
+    "menus": {
+        "spectate": "Vaksam",
+        "livegame": "Levande spel",
+        "twitch": "Twitch",
+        "afreeca": "Afreeca",
+        "favorite": "Favorit",
+        "unfavorite": "Ogynnit"
+    },
+    "tags": {
+        "FIXED": "FAST",
+        "IMPROVED": "FÖRBÄTTRAD",
+        "ADDED": "LAGT TILL",
+        "REMOVED": "TOG BORT"
+    },
+    "language": {
+        "text": "Svenska",
+        "lang": "Svenska"
+    }
+}

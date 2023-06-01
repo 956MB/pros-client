@@ -1,0 +1,78 @@
+{
+    "$schema": "../node_modules/@tauri-apps/cli/schema.json",
+    "build": {
+        "beforeBuildCommand": "",
+        "beforeDevCommand": "",
+        "withGlobalTauri": true,
+        "devPath": "http://localhost:3000",
+        "distDir": "../dist"
+    },
+    "package": {
+        "productName": "Pros",
+        "version": "0.1.0"
+    },
+    "tauri": {
+        "allowlist": {
+            "all": true,
+            "fs": {
+                "scope": [
+                    "$APP/**", "$APP/src/**", "$APP/src/data/**", "$APP/src/imports/**", "$APP/src/bats/**", "$APP/src/assets/**" ,"$DOWNLOAD/**", "$RESOURCE/**", "/data/**", "data/**"
+                ],
+                "all": true
+            }
+        },
+        "bundle": {
+            "active": true,
+            "category": "DeveloperTool",
+            "copyright": "",
+            "deb": {
+                "depends": []
+            },
+            "externalBin": [],
+            "icon": [
+                "icons/pink.ico"
+            ],
+            "identifier": "com.pros.win",
+            "longDescription": "",
+            "macOS": {
+                "entitlements": null,
+                "exceptionDomain": "",
+                "frameworks": [],
+                "providerShortName": null,
+                "signingIdentity": null
+            },
+            "resources": [
+                "assets/**",
+                "locales/**",
+                "data/**",
+                "bats/*"
+            ],
+            "shortDescription": "",
+            "targets": "all",
+            "windows": {
+                "certificateThumbprint": null,
+                "digestAlgorithm": "sha256",
+                "timestampUrl": ""
+            }
+        },
+        "security": {
+            "csp": null
+        },
+        "updater": {
+            "active": false
+        },
+        "windows": [
+            {
+                "title": "Pros",
+                "resizable": true,
+                "fullscreen": false,
+                "height": 830,
+                "minHeight": 565,
+                "width": 895,
+                "minWidth": 700,
+                "decorations": true,
+                "transparent": true
+            }
+        ]
+    }
+}

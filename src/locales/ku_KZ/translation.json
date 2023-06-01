@@ -1,0 +1,249 @@
+{
+	"modes": {
+		"ARAM": "ARAM",
+		"URF": "URF",
+		"all": "All",
+		"normalBlind": "Normal Blind",
+		"normalDraft": "Normal Draft",
+		"rankedFlex": "Ranked Flex",
+		"rankedSoloDuo": "Ranked Solo/Duo"
+	},
+	"regions": {
+		"br": "BR",
+		"eun": "EUN",
+		"euw": "EUW",
+		"jp": "JP",
+		"kr": "KR",
+		"na": "NA",
+		"oce": "OCE",
+		"ru": "RU",
+		"world": "World"
+	},
+	"roles": {
+		"any": "Any",
+		"bottom": "Bottom",
+		"jungle": "Jungle",
+		"middle": "Middle",
+		"support": "Support",
+		"top": "Top"
+	},
+    "cq": {
+        "pages": {
+            "streams": {
+                "title": "Streams"
+            },
+            "leaderboards": {
+                "title": "Leaderboards",
+                "controls": {
+                    "rank": "SPLIT RANK",
+                    "lp": "LP",
+                    "name": "NAME",
+                    "socials": "SOCIALS"
+                }
+            },
+            "matches": {
+                "title": "Matches"
+            }
+        },
+        "title": "Champions Queue"
+    },
+	"settings": {
+		"pages": {
+            "shortcuts": {
+				"title": "Keybinds"
+            },
+            "accessability": {
+				"title": "Accessability"
+            },
+			"about": {
+				"title": "About",
+                "description": "PROSPEC is a free and open source desktop client for tracking and spectating professional League of Legends players. This application is a sort of 'upgrade' or alternative to OP.GG's 'Pro Matches' feature.",
+                "thanks": {
+                    "title": "Thanks",
+                    "Jason Chan": "Default app background ensemble. Misc champion splash art.",
+                    "Sephi Lash": "Katarina splash artwork.",
+                    "Adrien Gonzalez": "Various champion splash art concepts. Caitlyn. Jhin.",
+                    "Riot Games": "Champion splash art, champion icons, profile icons, etc.",
+                    "Metafy.gg": "Champion splash art cutouts."
+                },
+                "changelog": "Changelog",
+                "package": "Third-party Software - License(s)",
+                "github": "Github",
+                "checkForUpdates": "Check for updates"
+			},
+			"application": {
+				"items": {
+					"Accent": {
+						"description": "",
+						"title": "Accent"
+					},
+					"appScale": {
+						"description": "",
+						"title": "App scale"
+					},
+                    "appLanguage": {
+						"description": "",
+                        "title": "Language"
+                    },
+					"dark": {
+						"description": "",
+						"title": "Dark"
+					},
+					"notifications": {
+						"description": "Favorite pros gets notifications when they start a game (Auto refresh on)",
+						"title": "Favorite notifications"
+					},
+					"hardwareAcceleration": {
+						"description": "Hardware acceleration uses the GPU to make the PROSPEC run more smoothly",
+						"title": "Hardware acceleration"
+					},
+                    "showAnimations": {
+						"description": "Show UI animations app wide",
+						"title": "Animations"
+					},
+					"keyboardMode": {
+						"description": "Enables app navigation using the keyboard",
+						"title": "Keyboard mode"
+					},
+					"light": {
+						"description": "",
+						"title": "Light"
+					},
+					"minimizeToTray": {
+						"description": "Close button should minimize, not exit",
+						"title": "Minimize to tray"
+					},
+					"openOnStartup": {
+						"description": "",
+						"title": "Open on startup"
+					},
+                    "useBackground": {
+						"description": "Choose whether or not app shows background images like splash art",
+						"title": "Use backgrounds"
+					},
+					"randomBackground": {
+						"description": "Choose the app background to be randomly selected from champion pool, or set it to a specific default",
+						"title": "Random backgrounds"
+					},
+                    "liveBackground": {
+						"description": "Will use the animated version of a splash art, instead of the default image (If possible)",
+						"title": "Live backgrounds"
+					},
+					"system": {
+						"description": "",
+						"title": "System"
+					},
+                    "oled": {
+						"description": "",
+                        "title": "OLED"
+                    },
+					"appTheme": {
+						"description": "",
+						"title": "Theme"
+					}
+				},
+				"title": "Application"
+			},
+			"content": {
+				"items": {
+					"autoRefresh": {
+						"description": "",
+						"title": "Auto refresh"
+					},
+					"card": {
+						"description": "",
+						"title": "Card"
+					},
+					"list": {
+						"description": "",
+						"title": "List"
+					},
+					"listLayout": {
+						"description": "",
+						"title": "List layout"
+					},
+					"refreshInterval": {
+						"description": "How many seconds/min to refresh the list of pros (3m+ recommended because of LoL API rate limits)",
+						"title": "Refresh interval"
+					},
+					"showRandomSkins": {
+						"description": "Displays random skin backgrounds instead of default skin art",
+						"title": "Show random skins"
+					},
+					"showSummonerIds": {
+						"description": "Displays player summoner ID (Hide on bush), instead of gamertag (Faker)",
+						"title": "Show summoner IDs"
+					},
+					"showTeamLogos": {
+						"description": "Displays team logo in place of current champion in card",
+						"title": "Show team logos"
+					},
+					"useCutouts": {
+						"description": "Uses transparent champion cutouts instead of loading splash art",
+						"title": "Use cutouts"
+					},
+                    "showUnavailable": {
+						"description": "Displays player cards that are currently unavailable for spectating (Error in Spectator API, or player is not currently playing)",
+						"title": "Show unavailable"
+					}
+				},
+				"title": "Content"
+			},
+			"language": {
+                "title": "Language",
+                "add": "Don't see the language you want? <a title=https://github.com/956MB/PROSPEC/tree/master/src/locale href=https://github.com/956MB/PROSPEC/tree/master/src/locale target=\"_blank\" rel=\"noopener noreferrer\">Add it!</a>"
+			}
+		},
+		"title": "Settings"
+	},
+	"titlebar": {
+		"lastRefresh": "Last refresh: {{insert}}",
+        "searchPlaceholder": "Search",
+        "searchSettingsPlaceholder": "Search settings",
+        "searchPlayersPlaceholder": "Search players"
+	},
+    "sidebar": {
+        "settings": "Settings",
+        "live": "Find Games",
+        "players": "Player Database",
+        "history": "Recent Games",
+        "cq": "Champions Queue",
+        "favorites": "Favorites"
+    },
+    "titles": {
+        "favorites": "Favorites",
+        "all": "All players",
+        "accounts": "Accounts"
+    },
+	"tooltips": {
+		"playerUnavailable": "{{insert}} is either not in a game, or spectator is unavailable",
+		"noFavorites": "No favorites added",
+        "noPlayersLoaded": "No players loaded",
+		"copy": "Copy",
+		"copied": "Copied",
+        "show": "Show",
+		"hide": "Hide"
+	},
+    "notifications": {
+        "gameStart": "has just started a game!",
+        "live": "has just gone live!"
+    },
+    "menus": {
+        "spectate": "Spectate",
+        "livegame": "Live Game",
+        "twitch": "Twitch",
+        "afreeca": "Afreeca",
+        "favorite": "Favorite",
+        "unfavorite": "Unfavorite"
+    },
+    "tags": {
+        "FIXED": "FIXED",
+        "IMPROVED": "IMPROVED",
+        "ADDED": "ADDED",
+        "REMOVED": "REMOVED"
+    },
+    "language": {
+        "text": "Khuzdul",
+        "lang": "Khuzdul"
+    }
+}

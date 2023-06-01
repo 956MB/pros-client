@@ -1,0 +1,1845 @@
+{
+    "players": [
+        {
+            "player": "Kingen",
+            "team": 918,
+            "league": "LCK",
+            "role": "top",
+            "stream": "https://www.twitch.tv/hwang6595",
+            "accounts": [
+                {
+                    "name": "Kingen",
+                    "id": "D70ngLzNBXnJhpYtFYHukvon0afPdrDF6HAhgTNq_m3nciI",
+                    "puuid": "q8PUqXd6zHEvYgWwKe7jwWvmef72TTNa-Yj3lbra8YV-YnBu33rTx9iASxxEMmnuqyl8JQpil77U9A",
+                    "profileIcon": 5270,
+                    "region": "kr"
+                },
+                {
+                    "name": "그라믄안되제",
+                    "id": "h-K_shUss2u4XlQVW6faJxm6G5wOt3EY99ICRM0KZpDva70",
+                    "puuid": "kN5zBm1CeGX2pX3Kh4Tl3IWj-3Ko8QLJQ90aNioBTZ5Dy6vge8gJy2EpuVJ1UsoCvahQO6_LCAWkzA",
+                    "profileIcon": 3860,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Pyosik",
+            "team": 918,
+            "league": "LCK",
+            "role": "jungle",
+            "stream": "https://www.twitch.tv/pyosixs",
+            "accounts": [
+                {
+                    "name": "DRX 홍창현",
+                    "id": "9pBrASqRYPq2hzNp-b125-NVnsYfPUv4BFd_aN4vXvNVEuYvZpXHfRbHuw",
+                    "puuid": "AGBYyNJ3qXN21qHSRxm6FQ6uL08Gxxt-5-IHzg5EidV6XX9mf-NeP3bAJ7Xtfg8fkge8DwmHUjWQ6Q",
+                    "profileIcon": 29,
+                    "region": "kr"
+                },
+                {
+                    "name": "washingchingDDao",
+                    "id": "ygN5G9lGPpQ-IZ8VaXK1VPQNjNo45YAAqVJk5gqCP8ga3qW9xWWZBMOyAg",
+                    "puuid": "gLRfgm7M562VRdex9tobhIJuEaHq1XEYofQ8xfaHHE_JMH9GDDOlATnVZUQAQPVOK-oG4LejklZXEQ",
+                    "profileIcon": 6,
+                    "region": "kr"
+                },
+                {
+                    "name": "이끌어가는자",
+                    "id": "OqdxA5-21YRIXzBsq9_rxohMu1uXSeO2hyYTudas_xCHY_o",
+                    "puuid": "C_yS1KPkwdWmM3Tj_W389d2k2yEsmILEIvQPBLFmNEdNssByWB8tCyPx8vm6QtOegL3Q16vwXkhPqQ",
+                    "profileIcon": 4903,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Zeka",
+            "team": 918,
+            "league": "LCK",
+            "role": "middle",
+            "stream": "https://www.twitch.tv/gun6028",
+            "accounts": [
+                {
+                    "name": "나는 준일하다",
+                    "id": "BPf7V4R3zsrtQ2w1zou1su-USE5-vtXMGCefP2bsPJCAprY",
+                    "puuid": "zFX4rTQF9lhuDXpki8IHQkI_ER2e1F7ZbPgxAHWR8i9c-zH33xfo82MXjyEAP4ddt0ch7_5rilOWZA",
+                    "profileIcon": 23,
+                    "region": "kr"
+                },
+                {
+                    "name": "Donttake",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "베란다거북이",
+                    "id": "w6gLwOIw-_cn27g5rIKTTPF3lk0Vdokfdio8G8IwKxInLsM",
+                    "puuid": "dOXYqn_cy1noEGCgvQDIr8tUHXywxL0YvCTIw_7QP5aopL0MEbwXU1QOzMbB5P_iX9_9g4388seKrQ",
+                    "profileIcon": 4568,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Deft",
+            "team": 918,
+            "league": "LCK",
+            "role": "middle",
+            "stream": "https://www.twitch.tv/ilku1023",
+            "accounts": [
+                {
+                    "name": "가나라마아바",
+                    "id": "JAk7Yt1sBfb9asBhuopXof129GRaiInRL68V9Q6fdvI0e2o",
+                    "puuid": "-gkljwWoUYuSqljUyBc7kp1eFd1hNJ5VE9LzJ6eTW4FpOmIQprTEHOWv6TikUFHPdFSJ016TmtCoVQ",
+                    "profileIcon": 20,
+                    "region": "kr"
+                },
+                {
+                    "name": "베란다고양이",
+                    "id": "83FWape8VshJF_oEZTnbMJEZHt9olBQ7Xjt1Z_7ayCYmbto",
+                    "puuid": "DdOpwB9OjbuDWEqoeoMS2D9PtmOvRAOLNUkgug-04qlWzFKcbtU6K4LFEXq2bI1taldmnju7SpmkrQ",
+                    "profileIcon": 5277,
+                    "region": "kr"
+                },
+                {
+                    "name": "직스폭탄",
+                    "id": "1lYW1wjez3U_WHqj2kOPHDSSmTicw8uQUv2RYRtxU7J87xBsuscui2YdBQ",
+                    "puuid": "SfxG6-O5Sua9bLdzH08DETZVJVju13tzNGTf3mwXNsfgv1OFimw72z5SWMz1LHCk4UZvVQ7u8ygEIA",
+                    "profileIcon": 5039,
+                    "region": "kr"
+                },
+                {
+                    "name": "내옆에물컵",
+                    "id": "ooRARHpvnafgarf95UGyaYHH8LkJbdzgDfk_-oKosmMGs9M",
+                    "puuid": "NmDHbcGDrTqrSEUmwYuHCL-VI4bO4HPFxDJfC8b8gk2TJ9obt5So0KN4D4tv4OmK69J5c56uNFfsog",
+                    "profileIcon": 5414,
+                    "region": "kr"
+                },
+                {
+                    "name": "IcelandWalrus",
+                    "id": "NsahM3bcvfMKjik3g74QpMOgNkSwLK_MHqBZWpHByAVlWIMpc56b419NxQ",
+                    "puuid": "FM7ut-TZiJ1rnlvO0t-0Ho02RCQ_-HiJmVhWmkxS3s8n4tU40Ss_LNVBJhcwpAo3WgfIhmWIJtrIkg",
+                    "profileIcon": 29,
+                    "region": "euw"
+                },
+                {
+                    "name": "TP FROM S5",
+                    "id": "HygGw4naXlu56epCDIdEH8t2WxAGR3W1nl29s0GsLY_oylk",
+                    "puuid": "LWAyPyL1y47hlQxso7QBT5CkU6Ml98EFx6XSuQAleUN45v3imesokvNXOP0L2K5n2Z4nEwr1GW4xBQ",
+                    "profileIcon": 1248,
+                    "region": "na1"
+                }
+            ]
+        },
+        {
+            "player": "BeryL",
+            "team": 918,
+            "league": "LCK",
+            "role": "support",
+            "stream": "https://www.twitch.tv/beryl0202",
+            "accounts": [
+                {
+                    "name": "DWG BeryL",
+                    "id": "4ZRa4UsI-OX9wzA6YGrCpb9Axz10NKzilZ4vb2OYwBxVBT2y",
+                    "puuid": "qiqpXbgCBHKPQJXReT-U3o7fpK-fH9E2HV2l2Ijq9YmjsXNiLUvMlUhWnA8-FKlrNHUzY4WwYAlQmw",
+                    "profileIcon": 4932,
+                    "region": "kr"
+                },
+                {
+                    "name": "율자주세요",
+                    "id": "5Kmht9P6E8O_o3vmsjV8bMQW0tPP5h3MxS0TfZlKlhmPSQA",
+                    "puuid": "2M1YxDR6r0P82h1qumu7OwH00MSPA_cyjCLWSDI6S6EjdQgzeMDxVZup1ZF9RFxG_JR5MKnX1jKv6Q",
+                    "profileIcon": 4833,
+                    "region": "kr"
+                },
+                {
+                    "name": "Landsol",
+                    "id": "I5PJy8wjnPsX1Jzp50-7VIQW9mur9H3xdvt54PAjn34YdwY",
+                    "puuid": "l8SC6RRsvfG_b35bwk5gB8Ni9o32uaNyQaE5F09bmpC9a8AsVvu6gvkKerIU5gVaMLHkb-znE7PCkw",
+                    "profileIcon": 1114,
+                    "region": "kr"
+                },
+                {
+                    "name": "PekoPek0",
+                    "id": "q4Lw5CJa16UuwEARMAv1HB-JkUWDmpX07_KPoZNe1M8RSYfy",
+                    "puuid": "0lAkh7_xw5pspFQ32831rm5Cvoiq2lt-FrTZSrEq9URI50AOPHEzQdrc7YLE6XLD_OvqKVvklN-5Pg",
+                    "profileIcon": 29,
+                    "region": "euw"
+                },
+                {
+                    "name": "QJNVJuywetsf",
+                    "id": "POzb1j7oXrJKkjCjvWR5Q_UEj07OQnBvBqT0bwog05iLdrsJdqipKxn1oQ",
+                    "puuid": "5upVV7Rg2lP89NHvNn0kyAwXiUxDMNLBqeSiL2pwtK8KIXmMWg27yaYTkmB1pJaAYHOSGr9PFFvdSA",
+                    "profileIcon": 29,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "Nuguri",
+            "team": 636,
+            "league": "LCK",
+            "role": "top",
+            "stream": "https://www.twitch.tv/zahard004",
+            "accounts": [
+                {
+                    "name": "雨月云",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "늘 완벽하고싶다",
+                    "id": "xzWX1xHARHCfKAycjJelRq1fD_uJycqsceSTRCUUT1NjRg",
+                    "puuid": "qLW0vZ8MuVdI2cmFxqn5riPhARvmf4xK-ylzlvt7gQTj_XSiC0hU0g8mkPov20YEu6Ztxi35uy2mkQ",
+                    "profileIcon": 3860,
+                    "region": "kr"
+                },
+                {
+                    "name": "개 무겁다",
+                    "id": "9GGd02qItQHBT9e3djr4ViZONRGBMt3dVYqrj_QOW2yIv5o",
+                    "puuid": "BD6itKFhu8HxFW0HArJ0Fi2TgahZ16uoGrDKL0h9jeJRAQfwHCkMtqaNuw_kTsXIkUCqqif51T0anQ",
+                    "profileIcon": 4931,
+                    "region": "kr"
+                },
+                {
+                    "name": "디케이 탑",
+                    "id": "OmJWTw-K2AvIFaTJFrH_CKDJngiavwfnUhe7u2Y4_xFIiOw",
+                    "puuid": "CM3udqeq997j1GkBfQflWkNHNzXFCE2bYCat53DK-rSqS9EaRqKIKp1UVUN8H0rbpD-K6NG6LRRWrA",
+                    "profileIcon": 4832,
+                    "region": "kr"
+                },
+                {
+                    "name": "asdfgasdf",
+                    "id": "UptrrFGAdkrj0AcRRqEW-k1F2gVoI_r2TrzMF-Orz_36BlRNvJJvpdwfCA",
+                    "puuid": "gs1430E-sxU1U47ng3sdbm0fhopBVwCdDq_8Y_LrDbWgVl490sUn8vVaPLc-ckuDNjleVI7XekY4MQ",
+                    "profileIcon": 5378,
+                    "region": "kr"
+                },
+                {
+                    "name": "Saim Sejong",
+                    "id": "2BLoLooS-56wiYmQvfOB9fwCwjZ246Ol4V14pGdeHp-ISa-9uY1j0MYJYQ",
+                    "puuid": "9wiEnMz0dWrBSamYtM231VqKiu7S8ma8XjcCruSVQ5cGJwzzEEcbu3ymfEya8SrdGdCExcG8SUI3nQ",
+                    "profileIcon": 1386,
+                    "region": "euw"
+                },
+                {
+                    "name": "Stargazer7",
+                    "id": "3Ta0_NzV5DpHwvjlVhdk9zrO_MHYsTTe5_WWgM8gLptT30Hq3U_ll3jPGw",
+                    "puuid": "k6u1egikRIQe5BHnZ5EtjMYcEVLhOqr20yRDW3iTJyCZoNBtjx0NigH0Hp0_7_uw_Asi0_RfdG145w",
+                    "profileIcon": 29,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "Canyon",
+            "team": 636,
+            "league": "LCK",
+            "role": "jungle",
+            "stream": "https://twitch.tv/rjsqn1109",
+            "accounts": [
+                {
+                    "name": "JUGKlNG",
+                    "id": "8eB5sY5X0tV8-FDDl8eL048gHAl9nn8oF3O5P0VEkvlJ4-4",
+                    "puuid": "xtXjFBjaTN-3KJNZOls43l--xXSfpdJ4s9jdaGbV9T-guub7-lnVsxI4CzsGs1CYFGEoUPU9vN2Vuw",
+                    "profileIcon": 3554,
+                    "region": "kr"
+                },
+                {
+                    "name": "언제나잘하고싶다",
+                    "id": "DuPomC1GRXQmi8FlY0KLwoPgXYsVohh45BAxrAe70hrQgaUb",
+                    "puuid": "dP9leNHw5re0os6qwqvC5xKgA4K6oSse4L6Z0fqQhq6zelhCQXOFMa7tanR8eUwoB28h6Il744hArg",
+                    "profileIcon": 4764,
+                    "region": "kr"
+                },
+                {
+                    "name": "JUGKlNG",
+                    "id": "8eB5sY5X0tV8-FDDl8eL048gHAl9nn8oF3O5P0VEkvlJ4-4",
+                    "puuid": "xtXjFBjaTN-3KJNZOls43l--xXSfpdJ4s9jdaGbV9T-guub7-lnVsxI4CzsGs1CYFGEoUPU9vN2Vuw",
+                    "profileIcon": 3554,
+                    "region": "kr"
+                },
+                {
+                    "name": "때가되면다시필걸",
+                    "id": "yXVfIjzKxc5lwucOSnhKweJVEwEvGPQP-plQaGQliTcYU5Q",
+                    "puuid": "OdVNWTsXMvxTYwZ91x8FgVjUVoWwnNH9vvkURSgzqdAevyLU7QyEdgHxKFxuHRih8BTAU2QMLfrGoA",
+                    "profileIcon": 7,
+                    "region": "kr"
+                },
+                {
+                    "name": "Eventual victory",
+                    "id": "UFEgU3OsZmTILul_lUx7WwOZmauYRr1OuuFXNthRSWYK8DvNP5b8hqgvAw",
+                    "puuid": "xgAxRE_XZQLxApVzY9c3SAcOMeLZ9G3SpSOoLfcg7Qz4CFr98R7E1Gqsu96rWSQgYVMf_cVCVhDbmg",
+                    "profileIcon": 29,
+                    "region": "euw"
+                },
+                {
+                    "name": "Aurora time",
+                    "id": "VinWzOx5RzJnLFEUPAGjaes84cwGGFWVXlI9TOb8HQJnm6-cdEecJBFY9A",
+                    "puuid": "JHWoYcgaB2ywe8DFM4Th8hQk54Q4ViCL6LMR7h9pFdSt23bC-ZyWY_C5dIPwrceQAmSWiTe5dP7wcA",
+                    "profileIcon": 7,
+                    "region": "euw"
+                },
+                {
+                    "name": "doyouknowkimchi",
+                    "id": "fPJJNI45zFRPXaUdwNBtn_Vctk8l0sAOgFAKobqOihW656l_",
+                    "puuid": "Gk34vTJ_w_ZyBn_K4FK-YqPE8uMlAUmndXbiYEZPyPb-9G6aPDFO2v4TkR4ptDILvxwsMVNyIFC4ZQ",
+                    "profileIcon": 7,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "ShowMaker",
+            "team": 636,
+            "league": "LCK",
+            "role": "middle",
+            "stream": "https://www.twitch.tv/gjtn9664",
+            "accounts": [
+                {
+                    "name": "DK ShowMaker",
+                    "id": "jHvhrfkY_yN3RpFU-78OgBfm8CHPdlB65fDS_6SugmWCZZ8",
+                    "puuid": "GtIpLLVcq0EuLcTsTle6bDGOTrYSv9ECerkUkOHfO4tgab_KP0iOjfvVHp7bik-C7bngwRhzBSSG5g",
+                    "profileIcon": 4933,
+                    "region": "kr"
+                },
+                {
+                    "name": "MIDKlNG",
+                    "id": "IrC3TPsvTwMMWKuHaaEKs0wtiJf7NcLoLno_oPeDgAszOtA",
+                    "puuid": "KcvULHm4cYl1GlcmW47QuBeRsUcaWy8xohWzJsWaoCguZK3Y-hjS57BWX0ThA6eWu-YWff4qSVKBgQ",
+                    "profileIcon": 4933,
+                    "region": "kr"
+                },
+                {
+                    "name": "힘내자아아아아아",
+                    "id": "RJF01fnjYIPTbqJn_ly-Zt2oQcFok_a2mrsAbx6tuFzmftg",
+                    "puuid": "jUiCkeidp9GvaqzCXHNAkq5HNhXlxnI8TT6ge2NaQGy-ODT9ur2F2GgdUD71MB__GTNTbsXf0Ze-og",
+                    "profileIcon": 4492,
+                    "region": "kr"
+                },
+                {
+                    "name": "wanshanghaowanan",
+                    "id": "6jNzTSvjuUhwvIfebN2l7CPX_t6VapuQk3keJGGgxNp9hJw",
+                    "puuid": "52PDztQdSNrKLNN_BnYX2sTyRkc6RML00P85949Shwsk8vF2zFqfvmthXbOv5gRhS2u1n7_YPa0dCQ",
+                    "profileIcon": 3150,
+                    "region": "kr"
+                },
+                {
+                    "name": "우영우0우영우",
+                    "id": "7mpkSakHUdDoApCVHjZnF45QDKnEqQlR6LuZRK7-uArTJzw",
+                    "puuid": "6S_7uQoYMQWuyqIDrWggNmy0JTwV7Grwdc5mWlROmFPLv8eAmCgCjFQJnjf34frrYbhItk1NyTJjCg",
+                    "profileIcon": 3592,
+                    "region": "kr"
+                },
+                {
+                    "name": "good bye iceland",
+                    "id": "Yn01ZPE9biyncwm8c7TJ0p3xY0nuc9MtcscX7ESvK6x6WenKaw4AKpi62w",
+                    "puuid": "l_p0BHI2wkfgOaX1gepOkomWn5C5jaWtPD3_qnpqkRld_ReiTV05OKT2clAsdy3QleuOH0ob0s8bWw",
+                    "profileIcon": 29,
+                    "region": "euw"
+                },
+                {
+                    "name": "SHøWMAKéR",
+                    "id": "9cTn7O9j0BawJbp90m0hhmzj1orvDjtVJw1qFzw7xbs-Xfo",
+                    "puuid": "q3PgSixrVZyE_-nRgRU3Fz2A4tpk_SbWlJGdUnzcmZCdbAV7Y7TFgKD-RyYDcsZqscFBeFatWC8b9w",
+                    "profileIcon": 5418,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "deokdam",
+            "team": 636,
+            "league": "LCK",
+            "role": "bottom",
+            "stream": "https://www.twitch.tv/gjsdg0225",
+            "accounts": [
+                {
+                    "name": "deokdam",
+                    "id": "4iLQifxwxej8KRRbFv5Ef1fxyyX-8wh3-lnUZFTs7XOTBGY",
+                    "puuid": "55kfcmi2rUQj8Sik5QnDhSU_YnhT0q4QHMH2Ix8L2wN7d2ARxzt9GmWHrhtlpTUFFcfRDbHOtj-Cqg",
+                    "profileIcon": 6,
+                    "region": "kr"
+                },
+                {
+                    "name": "DWG KIA",
+                    "id": "f8RuEHZcC1E6r5989VOI2jaKnmKsX34HBJd2CBLcctHtE28",
+                    "puuid": "bwLPhAR2xRk508WjZetYq5VaYFujJOKirvs7HDdHz4XvsKPQ_l5m5u-79w1vWdLkreXjWPaeDQ-v_g",
+                    "profileIcon": 6,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Kellin",
+            "team": 636,
+            "league": "LCK",
+            "role": "support",
+            "stream": "https://www.twitch.tv/lol_kellin",
+            "accounts": [
+                {
+                    "name": "참새크면비둘기",
+                    "id": "voIaGq18fnqYMlTwKpT1iU_3tdVQaQzN1oQy-Gg3sRiBPKY",
+                    "puuid": "2Nu6IvvlssmdwgJCcZuvNXkAujsrtQ340fK06rWfPYYa26ESJgPiS848W8gXIEr4qCybkzDk3XJ9gw",
+                    "profileIcon": 3849,
+                    "region": "kr"
+                },
+                {
+                    "name": "댕청잇",
+                    "id": "VtGhb4h0daYz8dYKjoybsulngkRveTJ0rYE_lnIteWsz54s",
+                    "puuid": "91x6eQuINJJH4KKTkoOyBIkEJC_-NOvX_O3onzWnJvuiM50pdRNriOEKF5p4Qn_jii-7N3vJMB-dtQ",
+                    "profileIcon": 4206,
+                    "region": "kr"
+                },
+                {
+                    "name": "taki",
+                    "id": "QCHBadMDYYty_x3oQ3aPPG52Xl7L5zCNL_NTA8LY6s8mkCg",
+                    "puuid": "QoH350OSvVgzIkic8S8HfZvg2RlDpNx_1lT1_EUTOjHk1LDQ_HDaWN8n2aZHlVC-f7NEOMHaIKpPCQ",
+                    "profileIcon": 23,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Sw0rd",
+            "team": 730,
+            "league": "LCK",
+            "role": "top",
+            "stream": "https://www.twitch.tv/chltjddnjs970616",
+            "accounts": [
+                {
+                    "name": "이도류",
+                    "id": "cScTmCQSrUOi__VlRWvi2eCcGQNj2Y0uWiN9Gb-85uHWyXo",
+                    "puuid": "KHxtWxLv-AR7WBp1ajiXQ2MntAIM9yEPsrDvGENc1F4gqwZO7_S-KPdmHusyz12Xj4EZh_RthKOhkA",
+                    "profileIcon": 9,
+                    "region": "kr"
+                },
+                {
+                    "name": "댕청잇",
+                    "id": "VtGhb4h0daYz8dYKjoybsulngkRveTJ0rYE_lnIteWsz54s",
+                    "puuid": "91x6eQuINJJH4KKTkoOyBIkEJC_-NOvX_O3onzWnJvuiM50pdRNriOEKF5p4Qn_jii-7N3vJMB-dtQ",
+                    "profileIcon": 4206,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Morgan",
+            "team": 730,
+            "league": "LCK",
+            "role": "top",
+            "stream": "https://www.twitch.tv/pjh1355",
+            "accounts": [
+                {
+                    "name": "Morgan5358",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "보라별사탕",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "Star is coming",
+                    "id": "pnQIE4gsEdSt7ljRmFnCpzls9FiEqmULk84zd0ynNHkfm0zoU0v7xshdag",
+                    "puuid": "kj3ZDjbrhRdNZxpQkenyi1JLc7PeMntUZz5QrjGSxXNe6ffmIzZKaZm89FndKQLBTRr2BrVhHYOqrQ",
+                    "profileIcon": 4,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "UmTi",
+            "team": 730,
+            "league": "LCK",
+            "role": "jungle",
+            "stream": "https://www.twitch.tv/lol_umti",
+            "accounts": [
+                {
+                    "name": "See u AG",
+                    "id": "brGAoiZcFHAEZcEtVqw0GX6v4Qpk_3HcUu5yR_H3WHEOV_I",
+                    "puuid": "eiBz4OnPmytx0fVS5o02SLdJafw5_CFTac3LKBG7LOHNfpINgvermRvCF8rtVv9bsZSTiO7VYRMXvA",
+                    "profileIcon": 1603,
+                    "region": "kr"
+                },
+                {
+                    "name": "노량 엄순신",
+                    "id": "6_nPJQG0b-cOGUb3RdJfGuH06GBt_Kge3pYdyTrvAfeZW7bovRHF0-KF-g",
+                    "puuid": "3c0xHEKmoYExK4GPvysaOmTDPRPSUeR5scFPAzyMyU7pScUt7TPps4onZLYIjPJeym-ujVatdo0lfA",
+                    "profileIcon": 5227,
+                    "region": "kr"
+                },
+                {
+                    "name": "아여름이였다",
+                    "id": "-40LLKvrMqJWkcqdl8niZVW8ke0cimuzCwCGhzwpsLEBa24",
+                    "puuid": "y3HP-JOsQI7ybolxxVO96gpJyAVOFgU9f-XOhJ8cUKKpKGz_3WAPTHooa5lc-CbRm4rqWjH7wVnoKw",
+                    "profileIcon": 693,
+                    "region": "kr"
+                },
+                {
+                    "name": "Jin Air Score",
+                    "id": "5MDop5V43cP-4D5Slro9bPKcQADddoV8hGjnqW2kwuzPo9MxRjchL3ghpA",
+                    "puuid": "p3Rf48sU-HbF2v__YN9SstzTd1LjphlRE0A9ZYODBsha4oPkOtwzxxoT8jhNxj7eL_cvjmzX3GWKeQ",
+                    "profileIcon": 6,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Raptor",
+            "team": 730,
+            "league": "LCK",
+            "role": "jungler",
+            "stream": "",
+            "accounts": []
+        },
+        {
+            "player": "Lava",
+            "team": 730,
+            "league": "LCK",
+            "role": "middle",
+            "stream": "https://www.twitch.tv/Lava1999",
+            "accounts": [
+                {
+                    "name": "BRO Lava",
+                    "id": "wrsWhbfYuSc9rNAu8WydGZhfLWSjeyfRcxBUkmueKE3VUps",
+                    "puuid": "Ucbgp5kAnn8vuG2bsX2rVShdqLXfa_1lXehZuWVLfqijH5XIRqQr9bnPei-DfLdWr8NaAjIwjW6JEA",
+                    "profileIcon": 4778,
+                    "region": "kr"
+                },
+                {
+                    "name": "lavazz",
+                    "id": "lt_l-pxhU46xdT9310iKbT7SXIwW5p-A-abRsM-hWjJeZ_Y",
+                    "puuid": "oBx_eoYDCDv7AeL_T4MYZkqVVB8sp2nQb4eum4PbCxxFI37_erctYpDOh2wCOaT5eOGpNUc-bNmpuQ",
+                    "profileIcon": 4249,
+                    "region": "kr"
+                },
+                {
+                    "name": "골목대장 태훈이",
+                    "id": "p34EMN-GWosBYZUM50Db38coWQ8J4UlSyzOi4XRgewlhUB4",
+                    "puuid": "Xk5adnAvbxdqjYwoflpbhOkeZfThXj-egtJkJ2ob4mbtPLgXCUK8q_RJyq_H26_ZX7hDH-Yn_2Jcqw",
+                    "profileIcon": 4778,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Hena",
+            "team": 730,
+            "league": "LCK",
+            "role": "bottom",
+            "stream": "https://www.twitch.tv/time3079",
+            "accounts": [
+                {
+                    "name": "BRO Hena",
+                    "id": "qR5kKYStEsS9onkoHQLDQ64WgwPgtPAUyWdvs87qf4a3MXk",
+                    "puuid": "38Mq5bTwAKM0mlq7olq34E67x1EfXY9XacwyOfM3ooZud1uJDNta9sp5BpCDxvt2E0Zlnb6zLKp9AA",
+                    "profileIcon": 4551,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Gamin",
+            "team": 730,
+            "league": "LCK",
+            "role": "bottom",
+            "stream": "",
+            "accounts": []
+        },
+        {
+            "player": "Delight",
+            "team": 730,
+            "league": "LCK",
+            "role": "support",
+            "stream": "https://www.twitch.tv/dbghkswnd",
+            "accounts": [
+                {
+                    "name": "BRO Delight",
+                    "id": "lbWBtj8MGXnumDPKRCM1cecgMU_ktQbOw2Tvz_08ThP20JE",
+                    "puuid": "kK6Fu4llzHY3Lrb08c0TyUVA7G9-Bgivw4vdpFpL_Xe_vOGR6qhc5bEbNwJKSyekZNw1EGNBoaOvJw",
+                    "profileIcon": 5408,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Doran",
+            "team": 445,
+            "league": "LCK",
+            "role": "top",
+            "stream": "https://www.twitch.tv/choi88255",
+            "accounts": [
+                {
+                    "name": "모찌피치모찌피치",
+                    "id": "lhylZa9828_Zy62tSScE7iWeR9mxi08JOBlO7LkJ6EfcFbQ",
+                    "puuid": "EBbMkoC1gNpKobTD2Qfh3ppej1O5RA4dZv5WYe25Yzg04531z_l2Le_Dxo-Bm-vDgOJ1kLlB8Cpo9g",
+                    "profileIcon": 4561,
+                    "region": "kr"
+                },
+                {
+                    "name": "어리고싶다",
+                    "id": "Tzc1SZ2fIOo2zVfx_iXVDfAFYONX3J5MiUsX5T6EAZjIbPY",
+                    "puuid": "zwLADFE-b_BEIVXxkGaKCjhaGnEr1yMF8f7Bb05Sv2Rm3020nALCiBDG940gn27BjABgVlxxT9hpRg",
+                    "profileIcon": 4896,
+                    "region": "kr"
+                },
+                {
+                    "name": "MoChiPeaCh",
+                    "id": "dNeLs0vyxbubF6ELZ0RJvi0Q1jLpae2B12HF-KnH3yCof9-N",
+                    "puuid": "u1mciB_6SojmkH6uk3DGqHITTqtDCT0L2rDm4GQ-K6iBDW8PKR1LysBUjIazKZk1btK_te8jxHOUog",
+                    "profileIcon": 29,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "Peanut",
+            "team": 445,
+            "league": "LCK",
+            "role": "jungle",
+            "stream": "https://www.twitch.tv/lol_peanut",
+            "accounts": [
+                {
+                    "name": "XiaoHuaSheng7",
+                    "id": "Po3RTXda_wSknk05IWO6ffKxKIw1dpPHhe3tZ3aGjQzN0d0",
+                    "puuid": "--Oci9gqJoIWdPqr1_8ABybB9_-Vluh1SUKvpqcTtkvGkF0cidrCMvxW4ETX81p1YLDfAG6hSDZ14A",
+                    "profileIcon": 1439,
+                    "region": "kr"
+                },
+                {
+                    "name": "SakurajimaMa1",
+                    "id": "TfuIehdyrIMASx108sjbdRqL9yiscWCdA8w6Smkjs3rOoOc",
+                    "puuid": "k8T2y7WNpiORmiKdHo46j6w3YA-HGIn74xYI9iHj_pyMljMVfpHMCm2T66LUW6dNZbfI0cuIb0Srgg",
+                    "profileIcon": 1665,
+                    "region": "kr"
+                },
+                {
+                    "name": "Wang Ho",
+                    "id": "CyYs2pNMCHKTsksxUxI49l6Y2HAcAO-TEjMgdWATzTqCRiE",
+                    "puuid": "8u3K1NmRakpSBfkgO-KYwphUPdFscsm1K3coayToauTEPWyIHsqKR0O7kNmp0nm1NfNIeFzgKic4-A",
+                    "profileIcon": 1258,
+                    "region": "na1"
+                },
+                {
+                    "name": "Wang Ho Hann",
+                    "id": "p818H8mdQ04MY-JJRTdzcfjdL2icSBYr4UkmkbZJfcw4D8bf",
+                    "puuid": "z9KaC210qck4qDI2JEXzb9_QSDusx8NDH5AbQKRmoOSlMHYiU6b3LnGL7eQJI8uzDn1sICwCQX80UA",
+                    "profileIcon": 3398,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "Chovy",
+            "team": 445,
+            "league": "LCK",
+            "role": "middle",
+            "stream": "https://www.twitch.tv/wjdcyql",
+            "accounts": [
+                {
+                    "name": "Chooooovyyyyyy",
+                    "id": "8TTBA7Cg3D_6_45wJUFUDiMB9w6A1nyJXzqBIgl6WseNIP1jz_K_T1CQPA",
+                    "puuid": "yarCDLEVbUD4TwF-D19lUUzLB0ZYuIEw6Z79R1FyL8NlpFc-yo0ljxqJqL1Jvj0REz3I_YdTUZIvIg",
+                    "profileIcon": 5071,
+                    "region": "kr"
+                },
+                {
+                    "name": "냥똥벌레",
+                    "id": "w9u0bFcIgT3wX6uk9aWeLSNc5_eIpjJmvo4zyBogg60eP28",
+                    "puuid": "jR_wDflnZkO6fz0UcXuQBfwMNjOjWDXElHnFwt2MbLOWsOnMwfzKqhdieD4-z-S2psne6RiykuUmuA",
+                    "profileIcon": 4022,
+                    "region": "kr"
+                },
+                {
+                    "name": "douyu TV 5306305",
+                    "id": "ReAnLgzCqdv_zIOTRlTywMrbMYaR5lIlvRa8eEFf4ii88re9",
+                    "puuid": "-kl3Cw1Ex-D40xLz2ltwXHmGzK58jSVaFBieoIUWpLUOAygOaHjVYIZNwyl7ba1vE49vZVrnUEnyuw",
+                    "profileIcon": 4072,
+                    "region": "kr"
+                },
+                {
+                    "name": "서렌누르면대충함",
+                    "id": "HryE_lLS3XM7W3eC3netjtY3P3a_1z3PhT0TbDEipfrWfIKQ0HPsd4TjCw",
+                    "puuid": "zNYwsUQh7vqy9A0M1e-m1aT4-fdb5AzkLCGkCKk6aVFgBBcxxG7TM3aL6iNCh4fdXBFxVU-BxdtBzw",
+                    "profileIcon": 5021,
+                    "region": "kr"
+                },
+                {
+                    "name": "Cc3cC",
+                    "id": "5psGb-pXMNmiGc6OT-edlif1NEAwqY8rlPUfBRG-GtJW4no",
+                    "puuid": "O07fJ47fs83KXEvwW2miwoAvD6wj3qmUP2L-x9QxB-4mI7MOE5jqS5yOrJhDameDvoYInZ7Tr7Q68w",
+                    "profileIcon": 29,
+                    "region": "kr"
+                },
+                {
+                    "name": "J1HUIV",
+                    "id": "NHNSidzSiuXCv6M9VlN789iGLDxx1e9iNS8qCDpZHv7dwiCpxYjD8xfRlA",
+                    "puuid": "dR7kBnPvqGdq9WrYGswI9chr268VVDA06u9ucSet8ly3rGaHghgbUSlrjQ0clvNhgM0ZwgJ8xo9IuA",
+                    "profileIcon": 1227,
+                    "region": "euw"
+                },
+                {
+                    "name": "Shrimp Shark",
+                    "id": "-mf7GOzb5dBnR45CVPY6Ga4x-mB7-Bp0gK4Nbftb_aBrH0hbGMOXXNbrPQ",
+                    "puuid": "QfoCDOi0PPtvw19mf4F95CoYTX0rkvGDxvq3N7Bnm4XlzCcbZDdWjpGYO0VLIIFuBsaO47fn389w0A",
+                    "profileIcon": 29,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "Ruler",
+            "team": 445,
+            "league": "LCK",
+            "role": "bottom",
+            "stream": "https://www.twitch.tv/lol_ruler",
+            "accounts": [
+                {
+                    "name": "Gen G Ruler",
+                    "id": "lOG80IPy6aeXcC1Vr-ABHAVLjDBmstmcf0MtFcu2wzj7u-w",
+                    "puuid": "Yx34BnQu0hptM_HQpD9uK5XD1iAjwRN5dclu7KrZWKt2tSVV7TbRjglOvLQS2KNlo8oyHCFtWeRskg",
+                    "profileIcon": 3890,
+                    "region": "kr"
+                },
+                {
+                    "name": "glaemfekglaemfdj",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "corejjoppa",
+                    "id": "ybL-WI6azTyyz_-v6sziAmqn0H87uh-rfpsfhWBX2whWB1s",
+                    "puuid": "FEsbf4ZpA5C1qnW0T5MZSvNERv1cZgG_UGp1enSJjq9MroWrWl-WbHuwgn4PAiW_yF_-6HJj6xV9Dg",
+                    "profileIcon": 1260,
+                    "region": "na1"
+                },
+                {
+                    "name": "ADADAD141414",
+                    "id": "_mK26tyjskRddEbhCybB8xhubOpNSjqLDsFhX797K6EQuDRnY9kn-pfRtg",
+                    "puuid": "viiDL_EA_HXt9CNrI9M0G_h7H4q4XPscAf4RHcEST8ACOGeCBJ4ERcVbXMIgHJ2cqrsGaAToaQyevA",
+                    "profileIcon": 5290,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "Lehends",
+            "team": 445,
+            "league": "LCK",
+            "role": "support",
+            "stream": "https://www.twitch.tv/tldn031",
+            "accounts": [
+                {
+                    "name": "Lehends",
+                    "id": "o2Nv_lcU-M-780VcyEWsg5ZF7gDnSMgi_0FLQ0p4EZrtofc",
+                    "puuid": "OCiW943Irhikfcr5mgN1TuYE47_bh8V1QLwV-5GqUDbFN0Er3wFbOCS2ham96nTNh-K_KJAC1RJ2OA",
+                    "profileIcon": 4295,
+                    "region": "kr"
+                },
+                {
+                    "name": "Always be crying",
+                    "id": "2Eksgd80uVBDrGyNk6DR7Vdsvv9QWZeVcwtS2zJymZVjnLE",
+                    "puuid": "N_nM5YVi4mT5ZSgh9SwlvmDBrxcvA9cjAABzIZSqRkJ4Gl2QUl7z5XJKQdMj4FykkiqyCzKIhGL-UQ",
+                    "profileIcon": 3380,
+                    "region": "kr"
+                },
+                {
+                    "name": "coctel",
+                    "id": "wd_KBzoMxmHMx_eHNhzSLsOWscrl8PqSXf0-YLAEpYlIhWOT",
+                    "puuid": "pv4trgHvbl5gllHplVG-YY7QuboJXVZw3V14ihRZ5L9uXWq1VrHvDp01eSnMV5LvfYTW2TFWq9_m-Q",
+                    "profileIcon": 4318,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "DuDu",
+            "team": 339,
+            "league": "LCK",
+            "role": "top",
+            "stream": "https://twitch.tv/vovldj",
+            "accounts": [
+                {
+                    "name": "bie mo wo",
+                    "id": "RYQOuVAuqaEwEo_2SA3p-TDztSWYTEz13hxKddFXVoOzoQ8",
+                    "puuid": "58PWjC8YdvfPgJ3F-Qr0g1fYoKSe4u1dWQtzc36bZl54biTlJJwh10sUzSvOAMArKq5IZmb0Ke3RxA",
+                    "profileIcon": 4661,
+                    "region": "kr"
+                },
+                {
+                    "name": "따봉람머스",
+                    "id": "EwJUBHuNSLtDmNbWecDLaXtm4Z3bgTSHrwHeORDu94sSZWg",
+                    "puuid": "rjyhR6n60sEkJQXnMdW1bR6WCQ9BmMDjybCFSOiEsq0pl2ffqnNbPAvqnM-y2a3_D8yfAMOKEXZrLg",
+                    "profileIcon": 21,
+                    "region": "kr"
+                },
+                {
+                    "name": "Im fine thx you",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "OnFleek",
+            "team": 339,
+            "league": "LCK",
+            "role": "jungle",
+            "stream": "https://twitch.tv/kimjk2008",
+            "accounts": [
+                {
+                    "name": "HLE OnFleek",
+                    "id": "El8RZ9ebsUO589imj96GAYrEmZdcqOLj0J1Sg68eIXM0nSQ",
+                    "puuid": "aeRokk6zWQpPxkOybsCR-7nAwNqPdXfImDyPsT5FS6qeboFmvGrvSOVOObhP5dSfy0jnx5I3VnNPjg",
+                    "profileIcon": 23,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Karis",
+            "team": 339,
+            "league": "LCK",
+            "role": "middle",
+            "stream": "https://twitch.tv/karis03159",
+            "accounts": [
+                {
+                    "name": "모두만 잘되기를",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "난 이제 악마다",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "HLE Karis1",
+                    "id": "01RLJUEPuxvDjHGNUtNUPSufwhNH3rC5Z28fsZlfIPO4xMM",
+                    "puuid": "atv7nb0m-fRJgdEo2lGMcO_n8GJMqlwziTIPErloBGgNH2uLkFJSUvBHynkz0gIDEQxyoECHXv3eBA",
+                    "profileIcon": 23,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "SamD",
+            "team": 339,
+            "league": "LCK",
+            "role": "bottom",
+            "stream": "https://twitch.tv/samdsamdsamd",
+            "accounts": [
+                {
+                    "name": "Lifeisgood666",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "마른논에 물대기w",
+                    "id": "adgL8PeLgsWerOM6BxHLENMLAXHdRbkNZSZNB3zY5mWAB_o",
+                    "puuid": "TuMITy8rmzIDxPfttFjqoxAx4DrgXQhpouEoJzHj-iK_FiVkwYhXh6HX-f84oKo8caEQDwdhUbR03A",
+                    "profileIcon": 5314,
+                    "region": "kr"
+                },
+                {
+                    "name": "다시 돌아올게 난",
+                    "id": "v5RCcZquGlP_BU6bmCkSuybWxs6ZnAhMnGlpgGKVfC0rI9esanCBJZmJig",
+                    "puuid": "DYg9foQ2EuuyPYKiCWGUxX1cdWdgWdz0SJcOD4qh35zlflvvOEJn2IQSIGdlGmWSCB4XxKZ6P7P_qw",
+                    "profileIcon": 3494,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Cheoni",
+            "team": 339,
+            "league": "LCK",
+            "role": "bottom",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "HLE Cheoni",
+                    "id": "UVgDqsx-eneLuqb0gm4LWmkwLdLDlv2koLfPYgqCnW599o8",
+                    "puuid": "G0YfXN-PGBbxxoDthbRdlCKo_rqOUwGd-ypWTIIjmexihV_4XrPWbpTf374VWBXNscaJ_jLRlJfekQ",
+                    "profileIcon": 6,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Vsta",
+            "team": 339,
+            "league": "LCK",
+            "role": "support",
+            "stream": "https://twitch.tv/dhgytjd123",
+            "accounts": [
+                {
+                    "name": "뷔이스타",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "nugulkkayo",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "wow cold",
+                    "id": "Ishv92rhOKQUmY7o7i0CJbGLV3TDaKkQs35mAyGFBUEdGBLDUevWZMz2qA",
+                    "puuid": "0Rd2M1I5B312Ddk5rdonyDHcPHhOY7rsQYJRh2-l-gTYKeILw7FPgCvGLk6bDObKgPV-H1iHOWVfLA",
+                    "profileIcon": 29,
+                    "region": "euw"
+                },
+                {
+                    "name": "건들지마 심기",
+                    "id": "WWD50B4waEMzvlO-BMnkBVwGxBdWcZ-v-kRTyQQFXH9m0CU",
+                    "puuid": "ICJx0pr-bNhE0KuvhRusKvj3Pm_TVLjwdlekSrni1UBmu-Vwpr5LQRew7qG0TgFnSktzH8qtfvxKiA",
+                    "profileIcon": 5418,
+                    "region": "kr"
+                },
+                {
+                    "name": "불편심기",
+                    "id": "NXINmCugt3HGQqThyqOeRVAkX1LIkBilTRPWwzpAzqEVC3o",
+                    "puuid": "DPNU-hQaJLUujeecOcaKGqrojkN6_Vp1SzrpBh-C0LqX6zP-pL214jj6zmVbef85Ch6KygfrHV5_Zg",
+                    "profileIcon": 5406,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Rascal",
+            "team": 679,
+            "league": "LCK",
+            "role": "top",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "Gen G Rascal",
+                    "id": "s0zaZlQ-vxcyHv0BVFOWpOYBjbjntp_U6prtf8xdzSEqT-A",
+                    "puuid": "3fTgAY6eFmXadEPnc8kTe5FRr2UMy1GEwdgzEGPas4SGH9xeM3OGGB3ciPyBP_5kC7GwPw6nmD-nVw",
+                    "profileIcon": 1114,
+                    "region": "kr"
+                },
+                {
+                    "name": "리바이 병장",
+                    "id": "AyXiWwDwZsyRonAtACZYB_rhx0a0DtFVNCZIRuUhXK9Ygdg",
+                    "puuid": "-yDLpiEMQgHbkES79klySYI-VOlAw5xZVdsrlaoSsunCKYcj2zdVcVZL53wZDLwh-Mk31DdYN7pdkA",
+                    "profileIcon": 4297,
+                    "region": "kr"
+                },
+                {
+                    "name": "Hirai92",
+                    "id": "g8t377d5sHF7yqmIurG2Gw5lNmt__A_W01UEinJ_7C9mXvye",
+                    "puuid": "08CXMFZF-_510IkgK1p9kCDMQp8j_Wp4gTEHlv8Zzsg86PQT_Ipfn7t56cjZjxhVSGmPXhrz5XYSzw",
+                    "profileIcon": 4,
+                    "region": "euw"
+                },
+                {
+                    "name": "Firefl0wer",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "Cuzz",
+            "team": 679,
+            "league": "LCK",
+            "role": "jungle",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "Cuzzzzzzz",
+                    "id": "4aBzBdDhDaK39M9eLI-U86JuFZRAtPBZcUigleNZy2J_IXWo",
+                    "puuid": "Qaf7rGKGX4Qv4YTVlV6Lbbdg1-QBuswDFxkJR54XiPL7tlHmo9zv7rntVPxVMvv1KXgoMOSxzrVftg",
+                    "profileIcon": 5414,
+                    "region": "kr"
+                },
+                {
+                    "name": "Cuzz",
+                    "id": "Bg2xnhxm8eB5JCLCuBnGIgyrvw2Z4u5239CfaQmxpFVmAJs",
+                    "puuid": "wb7zxqDKvHah5yzyaL-f_3-aFiu_ZZ2biItFf_TNK2VZXamFkw7y_6lzr67qphhfm45iqPapVNM2Fw",
+                    "profileIcon": 3,
+                    "region": "kr"
+                },
+                {
+                    "name": "왁컬로이두",
+                    "id": "Yonm9YX-9SIDT82QlH0wlt_GwdsTnhnMv3mE5JnPKqUvpok",
+                    "puuid": "NyAmNaIhtPQkyddnogBoxY2vEGJmZLE77lIcbgmgF9D-gCu3N6AAdsDcRxiznkPde36bL9dmXxxCdQ",
+                    "profileIcon": 4027,
+                    "region": "kr"
+                },
+                {
+                    "name": "우찬굳",
+                    "id": "qXios_6xK5rnyx48d83rKEJxlYFS9WXGhztqT_8Jqja0QEAiNkWgCyZ6nQ",
+                    "puuid": "SISF7Jml3Es4_Wl624FEgCzDJcAnM4VzWrhQYNuWjGGnK4OjB3VmcR0-zcgySrU8dbQePYF8xOgvKw",
+                    "profileIcon": 29,
+                    "region": "kr"
+                },
+                {
+                    "name": "LSADSDD",
+                    "id": "y1CKp-wDTTxX2gQ8_wxICz77KiUV0dzUE-3IaZxi3DCS2f5HsEsQCf2m6g",
+                    "puuid": "iyi5143euHCwC2v9NYSSa4M0_vavO3L7AuGff7Q5Isp1L5EFiWV9XNeH9B1BtUD5PltZ9wvY5iLiZQ",
+                    "profileIcon": 27,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "Aria",
+            "team": 679,
+            "league": "LCK",
+            "role": "middle",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "다섯 개의 가면",
+                    "id": "K0C4qt7cAQ014kV42XzMMepCRYtAnUNe9bx3I7GKMeNFbrY",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "해가지면달이핀다",
+                    "id": "F6iinIxQP8g3EyCUm0WASyRcgU0iUUZRoMs6h9YDfAdatxc",
+                    "puuid": "gHqrc1Jp_dRvpYLexHFECaywns6KsamH3CVeLbEd3cH4KDnjTnhqgV6BANJOYO5V1JUwXftDyzEJ9Q",
+                    "profileIcon": 4498,
+                    "region": "kr"
+                },
+                {
+                    "name": "im sry i died",
+                    "id": "6j9oZoJHiA7qjA_QkKbG9ETSUZeppo8ZTm2C-h6F1c_Kj7FgJrq1udLyIA",
+                    "puuid": "-KWRfSE3hFS_h1oEm6wC_ztHKMj3HIMGyM5wP72eWIx--BqvoCmtWlQPMyEz0wbp1V0Qd0I3l6cI-A",
+                    "profileIcon": 29,
+                    "region": "euw"
+                },
+                {
+                    "name": "2021Worlds0099",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "euw"
+                },
+                {
+                    "name": "iceland0",
+                    "id": "iLj0vw3dW8MTCMlEKSr2p1zTsn5RCsJKCFM3xPRmeWg8AmY_r0q3dj_a2A",
+                    "puuid": "qmUr3Zy_oDLknhOAJRSaFlUNlQTbeqb-cpIqZyyv2IFHeHOjVN7RPJRaHJsmcp4UIDN-mkKDgqmkUQ",
+                    "profileIcon": 29,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "VicLa",
+            "team": 679,
+            "league": "LCK",
+            "role": "middle",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "KTA MID",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "KT VicLa",
+                    "id": "c97jFELkTbZWnX1_4iBU-pOM2lLtUlq8J2QO18OgaoxY_hY",
+                    "puuid": "yFGIO-O1NvvuYGwhQEQ2m4sLyFhc9GwegFIYYuXKoIl0KqVGyZcsMJnthQ1rY9mxKpWI0jUFgFea4g",
+                    "profileIcon": 23,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Aiming",
+            "team": 679,
+            "league": "LCK",
+            "role": "bottom",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "아이린",
+                    "id": "uuMtMKAtX7YKC1CpGqc_RAHa5dQZmQQ2ll8NSnOnz81hzOs",
+                    "puuid": "P-3siCArQB2ePWgquE7vXODJXjrCKBNc7r1h-e0lGK9K6WjqDfLRE_rCa-zi6S5zvV7HoLq20Ypy9Q",
+                    "profileIcon": 1296,
+                    "region": "kr"
+                },
+                {
+                    "name": "asdqeee",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Life",
+            "team": 679,
+            "league": "LCK",
+            "role": "support",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "곽곽보성",
+                    "id": "YUzu0nVg7KxhvnYVD7ERXftKnhZvFZFugXGsTss-ZBC4LQ96yTIrpa37iQ",
+                    "puuid": "zsVnzRKMJr7wdnpAn9eA8RJuSLIucNbqFNALRoxMiSUg4jPIw1JwJst0WM15sAaqd2EAydWY4tiYqA",
+                    "profileIcon": 7,
+                    "region": "kr"
+                },
+                {
+                    "name": "acaweamsdacqwqwe",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "euw"
+                },
+                {
+                    "name": "Rascal",
+                    "id": "kzpOxwtKuk1beSsjP6bUYDJ1qCfFZqX-98Fp8Swo49s6ah0",
+                    "puuid": "i2ZPZ7AMaGNoxUtxxFMF1zeVUygq1loLRgSIAdcwusWmlx3R7DeGs98f4o79G2UKjjRXIwZ16Dr1Vw",
+                    "profileIcon": 5305,
+                    "region": "kr"
+                },
+                {
+                    "name": "Doinb",
+                    "id": "HIFaiyOnNBTkEW8Q2rTcnQihPp3kQkwRiPwG80z_jpuWbDE",
+                    "puuid": "Rm60Z_yiKaNEVUjou1EaUllP3FMDdTFJTvsybEfjTy4E-0nzAObfqCEWdhmPex6_bf9h_g8eS0Ux4w",
+                    "profileIcon": 3237,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Kiin",
+            "team": 813,
+            "league": "LCK",
+            "role": "top",
+            "stream": "https://bj.afreecatv.com/rldls5656",
+            "accounts": [
+                {
+                    "name": "오뚜기3분미트볼",
+                    "id": "pQxagioyVmGyPn3UNE5K-nBLPR7ioBZU6IDnUyUCC7pTUQI",
+                    "puuid": "rBTkq2XifTW7-YSKcWROW4qjUNEeOr9_SI6XTn5NT5AHMpiIPtESCqVzTRgTUioB7-RG0F_jXb667g",
+                    "profileIcon": 977,
+                    "region": "kr"
+                },
+                {
+                    "name": "아정글맘에안드네",
+                    "id": "SdTueD_-M3e7a0PpyCVJwXuyFd_tBRpb7r47QSCcdsOGm2o",
+                    "puuid": "P5C4JsOzuI2ROUmQrFpYWv81sP2Qx32LoGHP5QzDaSHoVlUcAw4my1VpkC_UEHZ8OyLjCA8MW7qXMg",
+                    "profileIcon": 2094,
+                    "region": "kr"
+                },
+                {
+                    "name": "qpalzmwoaj",
+                    "id": "gE4BTwt6Oa_09cCBQIIfTrAHUxLrRnrqGIJr1oZrD4-R-n0",
+                    "puuid": "2lvVmR8p5qC0MeyyLH0cS2oBzQi7bLUhe3tLo05UN5UkJ9CpL-3HpGSlZTLLjpy-1vtKtlC7NLZjag",
+                    "profileIcon": 4200,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Ellim",
+            "team": 813,
+            "league": "LCK",
+            "role": "jungle",
+            "stream": "https://bj.afreecatv.com/chldpffla5",
+            "accounts": [
+                {
+                    "name": "인디언식최우제",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "엘 림",
+                    "id": "kmsw1UHEN6KI4SSTf6mWNlhKtTG3v3p5Uk4pUNGNleR9nHk",
+                    "puuid": "QfOvrlnptTHJnHD0cKcrmvBRpp8_8Im8PyJfxjpMCBMp34OjcBXbhRrpWZWn7EjGwLesuO7clYcT1Q",
+                    "profileIcon": 1628,
+                    "region": "kr"
+                },
+                {
+                    "name": "7I 인",
+                    "id": "n6qwp0U7sdo3N0TAhfpAK9Th21-ojvF9jvjeFgdXdiW0VSs",
+                    "puuid": "8AG84FuXCLZ7cgzsJT9xZmWU_cnbyL22Gw9M2gR_nNQp4hqIm622WyOTcawW5nypZRlYIzMGVs6jww",
+                    "profileIcon": 20,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "FATE",
+            "team": 813,
+            "league": "LCK",
+            "role": "middle",
+            "stream": "https://bj.afreecatv.com/aplss123",
+            "accounts": [
+                {
+                    "name": "FATE",
+                    "id": "T9K8F-I9FAKtLMdZtV5-Xu3uGrJOfa_ocN1qyayhGvzUhHM",
+                    "puuid": "KgNQOOyoXgIDyefw40HFBO2Jc1hpxo9gqamQq_rQ4lgsOre1ABG-SYiTfi2bk4djqayC93to3up9AQ",
+                    "profileIcon": 3591,
+                    "region": "kr"
+                },
+                {
+                    "name": "떠나야해 멀리",
+                    "id": "fQv9a72QyWoRz_M_ojZBO92SKubIBj60PY5c0m81DPhcjlq-",
+                    "puuid": "w51erAhlyNAHL3e72OlmJayIOrkWpwt4330RPpOaSdfqxlFPS_RMWyAgVwPeEBhaAF0-nabk4nJxOw",
+                    "profileIcon": 25,
+                    "region": "kr"
+                },
+                {
+                    "name": "better leave",
+                    "id": "E5ZlH7aR6LrakaBPJxPdjXtl6f6excgaA8ghxsxv4aQOG68",
+                    "puuid": "o8v4sNgGAy8mk1KRzP7wILu92XO_xPVquA7JJjRnnl5_2hLmHeeQ1shcursW49rnU0pja6k8SUsiCw",
+                    "profileIcon": 1114,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Teddy",
+            "team": 813,
+            "league": "LCK",
+            "role": "bottom",
+            "stream": "https://bj.afreecatv.com/skdmlwlsjd",
+            "accounts": [
+                {
+                    "name": "이기고오싶댱",
+                    "id": "FScXJUQaYY6C1awdF5hckkwp8d8ImbMu3rEkmeQc7zKOThs",
+                    "puuid": "HCnNGP3Vrq_XFEs7i5TDGFI8LRxHybw603IYM4RArCfcqMpSGnh1ImC0jf0HczmLsSNUsxeQ6TwVSQ",
+                    "profileIcon": 3160,
+                    "region": "kr"
+                },
+                {
+                    "name": "I want winner",
+                    "id": "QWtuNsKHW4bibDeVk9-EKnpekKrHZeL3bpty2ok0VvOcsdpKVhF0RZX7eg",
+                    "puuid": "qRy5uc_ws1-UKgLXp4ZHqPDISkvSNt5KenBIASGdy7Rff5sUU_cvh6t4ropzHmBeieIX4st_m9eMBw",
+                    "profileIcon": 907,
+                    "region": "euw"
+                },
+                {
+                    "name": "teddy5",
+                    "id": "qd-CL0vtGF5gb82GJv3Qnj7xBYXGvTTgSn6FrdcsIBwxG4w",
+                    "puuid": "Rx5R8Uhz4WudTY1hL4CK2GdMoc0wrfgq_Z7k0dTqD-Ez4eAitScpKOjkFIESK8F-s5mOdgbCd97pvQ",
+                    "profileIcon": 4878,
+                    "region": "kr"
+                },
+                {
+                    "name": "우짜지 우짜지",
+                    "id": "C-YAz5moJHrLoOVz5bdNVMoCd6qYFd8oUrEAkppuXuvFt-I",
+                    "puuid": "CJyG2p1s4PCqV8uojbQonBPTwCRK_mDnX4E_qWJb7F2RApF86qhJkZieLqHtnOvrdiRF4m-msYM2zw",
+                    "profileIcon": 3851,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Hoit",
+            "team": 813,
+            "league": "LCK",
+            "role": "support",
+            "stream": "https://bj.afreecatv.com/dbghtjd0706",
+            "accounts": [
+                {
+                    "name": "호잇이",
+                    "id": "hYMUiUDSZnw29U9_8eeMyD5-KU7odF3PBtpKwfJIAqgXyAk",
+                    "puuid": "kdnkVEVOBeD71YzdiSGN40EiTX1s8gerzCSr6y1AXZCIvUwPrUPJk1JYnXxa5wsE34z2H1-3s5wPPw",
+                    "profileIcon": 4107,
+                    "region": "kr"
+                },
+                {
+                    "name": "hang1e",
+                    "id": "HQO_GJmRWud5tKhNndgQ132BMjjB1NKHIK9jZ0fylw_0E5mh",
+                    "puuid": "Q7xWeMaLsr3Vn9gNkr-vIQNZBMkftngrI314S5G2ZW4wqebqc4hZr0LsFy-y3moaB1Lt2VWBOViIuA",
+                    "profileIcon": 565,
+                    "region": "euw"
+                },
+                {
+                    "name": "dwghoit",
+                    "id": "5vMeGpyS6oR1yHVWWT9MDSTqND45jJZnS6GDCq2lr6TEH-co",
+                    "puuid": "xGzmfOaJKt3SAkFgSUmGumjT6ktHLdiUAQEiAGtAEWj8uzDSr43S_aSFFZEOXeRLYiJaGJlSoNYMKg",
+                    "profileIcon": 3220,
+                    "region": "kr"
+                },
+                {
+                    "name": "호잇이",
+                    "id": "hYMUiUDSZnw29U9_8eeMyD5-KU7odF3PBtpKwfJIAqgXyAk",
+                    "puuid": "kdnkVEVOBeD71YzdiSGN40EiTX1s8gerzCSr6y1AXZCIvUwPrUPJk1JYnXxa5wsE34z2H1-3s5wPPw",
+                    "profileIcon": 4107,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Moham",
+            "team": 813,
+            "league": "LCK",
+            "role": "support",
+            "stream": "https://bj.afreecatv.com/jst2233",
+            "accounts": [
+                {
+                    "name": "하마보다무거움",
+                    "id": "haK_IMudXk2-d8XBmiplpHvJ1XcfV86ZQPStDBAQq0MPkYw8",
+                    "puuid": "qGFM-roFekKdkfZMi3m_NZ7fg0l3CkxkP1a91q-l_Fs3yhpSN2NzkuEysn0eGsR8qS5S1eqiDW5F7Q",
+                    "profileIcon": 3868,
+                    "region": "kr"
+                },
+                {
+                    "name": "재훈이의모함",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Dove",
+            "team": 526,
+            "league": "LCK",
+            "role": "top",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "KT Dove",
+                    "id": "7VgbLY7zNqQjL1ffOajFkDDPVyoP93rJW0mGAXTNfso3CDKlwac2sm9TSg",
+                    "puuid": "RtDsnQYAbBqfJySQzvVGNdQiCrWjrDPB2bSe2lzXPSvRUflh0hixk7YWOYFH5_mPs9F-ccq7BGkX7g",
+                    "profileIcon": 5408,
+                    "region": "kr"
+                },
+                {
+                    "name": "비둘기 도브",
+                    "id": "GtHKcCLcC1lblKywZy-tAiCvLc-kV3W4y9m_AZizU1kd_V4",
+                    "puuid": "p6-eKDhOJ8oukVGME6-CcV3LASLvT5hAAq5Gs60K5Lu1WIDSw22CQ7UYNmyFc2pNuvuzZ7f8czOzhw",
+                    "profileIcon": 5182,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Croco",
+            "team": 526,
+            "league": "LCK",
+            "role": "jungle",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "Liiv Croco",
+                    "id": "tv-N8lFKkrc4xO-_VM86q5sL0VQ7AAdpzuoM3lt7aqTpMmFAAuFFx_R0KQ",
+                    "puuid": "d6io2AmS-ANX6qIYY9sHCawKbfHGxtvlUUUOewK4oI4uGNSTrB6Ra5QBnbysW2-_jtjNYjczG_548w",
+                    "profileIcon": 29,
+                    "region": "kr"
+                },
+                {
+                    "name": "모두다함께차차차",
+                    "id": "64chRK56FFHHNGnhtHC3CL69TIKMHgspmC6yA7r-PsuHXg8",
+                    "puuid": "9L3h9CxYHF11PYwle8tXmcS2aprkRmn7Js4CfQxyxEEa_6Q9SdvR21AdYth86pVX5qH_U0U6OUqmig",
+                    "profileIcon": 4021,
+                    "region": "kr"
+                },
+                {
+                    "name": "크로꼬",
+                    "id": "8u3REwCwVpAxjcsXxKQUklNEWQnSshjJtlS65oORja90zfQ",
+                    "puuid": "tCxVMCwaQpSCyNzInUYB4PDeuyyMFq_ZFWFs2HWokR2jC-3WWS1DwlbNk3YX-DBc4oDRAx6cInkOwA",
+                    "profileIcon": 28,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Clozer",
+            "team": 526,
+            "league": "LCK",
+            "role": "middle",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "Jh2nhj2rjoh",
+                    "id": "L83iNxx8qsnGd2nqLHb6Jt_x3j6xTYveNg_0tdOpw_Bp6OqKKfXB4XBE4A",
+                    "puuid": "BR7hYSQQVIVQgEiDDF4_OfI1n_soJ2T0ZM7wC8tm9zP94sLoWB1wbiPghBuCHEthIdXmPps6rECoqw",
+                    "profileIcon": 29,
+                    "region": "kr"
+                },
+                {
+                    "name": "So Bad1",
+                    "id": "5kcn6yZuRvPVv8byYMEbo1vGwJRP_fD78pTHH4vwPz3ZJi4",
+                    "puuid": "Xm_0v1Ud7eN48RkbgQ1maqwXZFXYAEI5aP0zY34GI8HoUwn5lG0tb07a_r6Wj2Xo8ayBMJe348uYjg",
+                    "profileIcon": 7,
+                    "region": "kr"
+                },
+                {
+                    "name": "샌박 클로저",
+                    "id": "1hos5EIwcLPai0nzeqkeejJUSjgRaVCxAlfRAKMYCFfwDVk",
+                    "puuid": "VaxlWPCL7j7aV9mw5fG7zd7rclUieSZWtNzRPkGIsO4LnUPk3CDIZDegjgyy96z8xCZUI69w-Hwnkg",
+                    "profileIcon": 5414,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Prince",
+            "team": 526,
+            "league": "LCK",
+            "role": "bottom",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "가고싶다 룰드컵",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "원딜 왕자 이채환",
+                    "id": "LGfb6lPu2emBBIEUi3YSZ5XvHY21yQcexXxh9wW0ZjsTd2E",
+                    "puuid": "nC3nn-MnlVdH92HYOUOttiRba99r6LK38wRyfN3LPxy8-ZCYdgDT6cGFgEHvaDLtw2_OXmhjvV1I9g",
+                    "profileIcon": 5419,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Kael",
+            "team": 526,
+            "league": "LCK",
+            "role": "support",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "K a e 1",
+                    "id": "QujW8AwQj4EMZ5uFfaBYcLP98gLt6IatcozuoM8fDkO0cCc",
+                    "puuid": "dIINQAns_gOn41Ht3x4EDUXL0jPKzapvregZWaAIJwVeJs5aWwCVWJuMRwa1rGy9e98qpXWOwmJalw",
+                    "profileIcon": 5414,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Canna",
+            "team": 718,
+            "league": "LCK",
+            "role": "top",
+            "stream": "https://twitch.tv/canna",
+            "accounts": [
+                {
+                    "name": "Canna00",
+                    "id": "Lusc-JL2mSyCj78_RM3jBOQuf0epKAQ1UmF97tLn3xF6oZg",
+                    "puuid": "UOhrX27nCCEz9S3JejA0j7uPQ2t5d1aJUAZWzxU7_lkHRiQKZM2atUjf_OWTUzrhafIS1vLFPCTVEQ",
+                    "profileIcon": 1438,
+                    "region": "kr"
+                },
+                {
+                    "name": "2021Worlds0113",
+                    "id": "e6Jkq7sJj1zin6ZB8RuBiX-fAXmkcpvBRFNKkrza5y06Inu3sSDzXqpNIw",
+                    "puuid": "dcQAywYOYzITcM2qElyG57y7WPPqIwqmNBVaeKsi09AxS2ix3pUL0XLVdzOmlPgp276EV61vzP8xBg",
+                    "profileIcon": 907,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "Dread",
+            "team": 718,
+            "league": "LCK",
+            "role": "jungle",
+            "stream": "https://twitch.tv/dread_jh",
+            "accounts": [
+                {
+                    "name": "오리지널찰떡쿠키",
+                    "id": "AWe7tRkWdfOHyRJsJNpaPj_XYOtcRsY9Yzl4uQdIN_wah7g",
+                    "puuid": "KTRqW1bRXlKe9a197o-FzMsEVHPV4aWEBxPcCxwF0m8PPlywylKPO20lXNqicf833QB3qxx08L2PKQ",
+                    "profileIcon": 4568,
+                    "region": "kr"
+                },
+                {
+                    "name": "병시우",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "아마존소울리스좌",
+                    "id": "36L5D_KxanqoHxxTUyWpcrvPkKhREwySthgx1PvqZQIYNYI",
+                    "puuid": "uMBW_H34v_HDIoN9rG59hm98v2csLtc8eNg9ybcy_LJJ9d067uJ3V7POIrSncg4ZKegLr5R4REO3WA",
+                    "profileIcon": 4568,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Bdd",
+            "team": 718,
+            "league": "LCK",
+            "role": "middle",
+            "stream": "https://twitch.tv/lol_bdd_990301",
+            "accounts": [
+                {
+                    "name": "기차나나나나",
+                    "id": "R_cPNCEadnXMWHHcwSHrZkcVxYe3YHX1JLZttzz7YPx3edR-XH2dyo4edQ",
+                    "puuid": "rK9QUy7GWyMq6yfppg9iiIgKqiwTNiSKlHWvUjYRVC6T3g9Zn1INniGWupTbP_hvEkBRUzUuM7Dzyg",
+                    "profileIcon": 5371,
+                    "region": "kr"
+                },
+                {
+                    "name": "류병준입니다",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "gichangaehazima",
+                    "id": "tA6blRQ_1XqkBLahe5gtU5McPUTdTUYeuIeOufJjYuFcgzCs",
+                    "puuid": "pYk-OAaTGl2x9dfajC7BSmP3mZ1XfHFRtJmpbugtkrAw8oHPEGd0IljIJA5XzNFtuthIXlx2EwFdcA",
+                    "profileIcon": 4763,
+                    "region": "kr"
+                },
+                {
+                    "name": "너왜우리집에왔어",
+                    "id": "t8ajEaXb8sEiMERRAc51sTtTQ-IGCXnCPkvqWc7CDJzveP8",
+                    "puuid": "FjI-k95UkkI6lelrbrsrlVev41TK0Vp0kkSq0C_lgrzFLNO_AkCuhrRQ60m03v-iZQsq-SorDgZeyQ",
+                    "profileIcon": 7,
+                    "region": "kr"
+                },
+                {
+                    "name": "ddb",
+                    "id": "CAs-sezrlY1yUrPlRsInT0kCJYCuBeCTHigLnilo_zC1euDG",
+                    "puuid": "NIFYNGiHo1A_0I2i-4ekrg8HlSEgUPxkI3FRZBeigmatPJ71Wa4Ql_JwmIGv_24BXceHinRlOp3b_g",
+                    "profileIcon": 4,
+                    "region": "euw"
+                },
+                {
+                    "name": "byeeeeeee",
+                    "id": "sfhOhXtZfBoQMIFIV4_no6MFvzvEDKsN-GOTADJFjH6xrLfw8-yheT-hZQ",
+                    "puuid": "EpncUtpjXIcSmORmUfjxOP9QNbEXFbeZoaS75aeYrpCdhT_KHs5R668tAAmE2ASG5s6O8leoHLVBLw",
+                    "profileIcon": 29,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "Ghost",
+            "team": 718,
+            "league": "LCK",
+            "role": "bottom",
+            "stream": "https://twitch.tv/wkddydwns0318",
+            "accounts": [
+                {
+                    "name": "푸쉬앞무빙선턴맨",
+                    "id": "TK4dngwyniQ9VTwKd0xl6lo-so1O4go3LYJaTXDx9w_R4SVcFhrABASs-Q",
+                    "puuid": "RIFzRTqFZFfuE_b_cEd_ySy08Apv3lvVlzCZ4f6OFGkz9HG4KCW60nznCCKlrsS8Uqnsu7Cye8SRcw",
+                    "profileIcon": 10,
+                    "region": "kr"
+                },
+                {
+                    "name": "GinGenBu",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "DWG Ghost",
+                    "id": "YErktyoFbzlNXfBvD7OulA4ZJN6wB_GrXFFClbmQJtIvCVQ",
+                    "puuid": "qX3F16XBCACCy4m8iaY9ONSG6depaVlTCr8MlnoZhuLHbicNF6L2p4mZeswJRLKdj20BFrFA_IF4-Q",
+                    "profileIcon": 4929,
+                    "region": "kr"
+                },
+                {
+                    "name": "농고 심스트",
+                    "id": "l0UOl1f5cVOhuBtdeg69dVTrDk5xnXD7KDOwhgrFKcRfjYw",
+                    "puuid": "_-Li_U3-77yapdyLwsZwMjZfGdzRS95wFvAzjzbgdTvEizAqtKIX3YYfu-JmB8nYZgWhwZjZbTsgyA",
+                    "profileIcon": 4929,
+                    "region": "kr"
+                },
+                {
+                    "name": "CocaCola Monster",
+                    "id": "3ILPWVe-2-8JoRJ70Bw6jQW4BQ95z7FOcRcuGE0qO6WMtaJbUWSFCc1a9Q",
+                    "puuid": "FPUDEXUiXSztZCmKlVpBbO13nt83QcFSY2WmNPosccIeyhJpaAMnb5v26wca47blknjefK1gfEBmRA",
+                    "profileIcon": 5067,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "Effort",
+            "team": 718,
+            "league": "LCK",
+            "role": "support",
+            "stream": "https://twitch.tv/effort",
+            "accounts": [
+                {
+                    "name": "레전드오브롤1244",
+                    "id": "sDrQWaPdN-OzCTgLqyhjc9KQyTEocFXAiowyHsV8OPJHXj4",
+                    "puuid": "EdbZ7wNqeGPQltWiyXrQpq64uEmnLRwwGYkoa3tcdFq1yDIMwK24HMFrtLjyFsJw8mfjuNji2Q-9pA",
+                    "profileIcon": 20,
+                    "region": "kr"
+                },
+                {
+                    "name": "Spread Wings",
+                    "id": "eArnUPj-nBJqxYJnRlwc0rgaGdRK4NIz3oxb5D07SYlLs_5m",
+                    "puuid": "1YWzRpHh4VR72ABOuMso04hGsm4jjfRWdeKebHtaM8J0jUGh1JU9zLGFRzFbOa3YFc72nEwxyxgowg",
+                    "profileIcon": 4067,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "Peter",
+            "team": 718,
+            "league": "LCK",
+            "role": "support",
+            "stream": "https://www.twitch.tv/jyusu0428",
+            "accounts": [
+                {
+                    "name": "농심라면다내꺼야",
+                    "id": "Wei7ml-5NJK3lbzVWxFnp4zCNoKQ9kTpyka5CGZsQ2tIq6o",
+                    "puuid": "EKyvCxyX3s8JnLom8rIQbGunkbK0GlEpKhK7SJhKMJLnJqnRb0k_3TzEDFhFdUeuz-n2n5NQmRiYbA",
+                    "profileIcon": 5414,
+                    "region": "kr"
+                },
+                {
+                    "name": "NS 피터",
+                    "id": "9jLrNrkvAVK3CUd4B0PrUZxOI-YrNBdx1u3XvfPWIEBy5FDa",
+                    "puuid": "QxUNNwHA1Jxor03u4A0l8RF3dYskKUGMJk8tTRbNr-mcYhd9QQj4Y_GkX5W1ypKwW4vj-DYW5DE3NA",
+                    "profileIcon": 5418,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Zeus",
+            "team": 523,
+            "league": "LCK",
+            "role": "top",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "T1 Zeus",
+                    "id": "s9H5DZ5YiKvEWDgi-6XDARpV4q9POsrqJFfBJh-lcXBkbEHBev3x4tAN7Q",
+                    "puuid": "Aq1B1Lf0SldLEkj45G48jEbkQWGT25mvSWXC3mVBDTK_c7yyd8naz0oILKTEB8IsSny_AUX1ahe1GA",
+                    "profileIcon": 29,
+                    "region": "kr"
+                },
+                {
+                    "name": "자연계곡나무하늘",
+                    "id": "UFALVc513F-3QdyXxoMK9nysgoPquzUredOuuMSEVGpguCo",
+                    "puuid": "4L9T8WeoVOrfToIEQYz6qxKU8gqwiEUZTf2lfORYk_1OMiXJscIg3skhniW95JewKBPvA3oLtk-LNw",
+                    "profileIcon": 5420,
+                    "region": "kr"
+                },
+                {
+                    "name": "우 제",
+                    "id": "JStVkBvAZp459rQ35pqBU1PwQZ0U2itYyBmDdiAi6Di7WQQ",
+                    "puuid": "ABThIctHTlAsDUks8lEYQvi_rs8igR_0OaqH_8efRsYQidwzn_0miyBQduJ7OOn90kfMmX8H7ya_7g",
+                    "profileIcon": 3152,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Oner",
+            "team": 523,
+            "league": "LCK",
+            "role": "jungle",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "T1 Oner",
+                    "id": "IFqNvPr8fOO6Ex-BdrcoiyIc1168e3jRBUNhaA7VhT1ud_AVMlmlT0uY-g",
+                    "puuid": "TjV9iUURalLRPQnVPg0Y4pr8rF2ZYerTrLrIQqjlfuAg7dL07omOdZHqSoPfkRSitlaLMtV6y1YLCw",
+                    "profileIcon": 4302,
+                    "region": "kr"
+                },
+                {
+                    "name": "0NER0",
+                    "id": "PMZLztXsvuFzbcbVx5NaLQXCRHqtFr7Lsf6Sfdy90VL-PhUatCHBcCmeDg",
+                    "puuid": "yrHSoEWFmD_LjIcnHLqEfugGoW7StShNUmETfVlRJplTj4AbGMsQTnT_ZqjIUs5p6stbsrtNmry6yg",
+                    "profileIcon": 907,
+                    "region": "kr"
+                },
+                {
+                    "name": "U face z",
+                    "id": "91X4YlQPNBbA9TdAd8hC-j31BlMEGhfzPPCeFmP1XCbntw8",
+                    "puuid": "JFMv9A1xxfYcpJwhxz1Uj2IUIPU26PJInXYt3vsoXS_lAoCfAB30DhB9IV2_h_yDddNoXKmCUJmuZQ",
+                    "profileIcon": 5091,
+                    "region": "kr"
+                },
+                {
+                    "name": "문신처럼 박힌",
+                    "id": "CPGx9Xv0fyFWNbUSN-TJQfq7rLfA6VRi7zg-iktqByo8HyKWgQiYr7rV0w",
+                    "puuid": "UvVLjyTrsFT6tcMdEpvHXgMoF9rinBKR1DkZJpnnZUhjbxBXIdHDqIWO26YeAs4qlBZQIr43zxqhPw",
+                    "profileIcon": 907,
+                    "region": "kr"
+                },
+                {
+                    "name": "뭘 보냐 디질래",
+                    "id": "YyP-HjcCnMwHeEzELHZiXCl0sKg-SwJwlKOiWJy_84TDBtf9kK_R27xP6g",
+                    "puuid": "a2vTTB4waAVDEwvryQYlxJuLQenpUCHZepTZwp8JB1t3SVA9Gm1k7X_plMljU1qy9L53mafMHcFE3A",
+                    "profileIcon": 5413,
+                    "region": "kr"
+                },
+                {
+                    "name": "OnerKING",
+                    "id": "ZEqJ5l2SD4XIa6w7yh5zC2UnfTG54rvN-j5OiUjXVL8CKwQv94ENMPSweQ",
+                    "puuid": "4azo_LBQgRScANtqLmK0zAKgmcsuDme3HCze1GxMYSgr5w95270bxKvO2s0NQ_1J1kE1YuOOWDhUyQ",
+                    "profileIcon": 1162,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "Faker",
+            "team": 523,
+            "league": "LCK",
+            "role": "middle",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "Hide on bush",
+                    "id": "Ll4xiD0xbSgP7VL3MFgPX2TB-uzusMRWqok0aTNKo3ZcAg",
+                    "puuid": "ygJ_JeU1jdlETZJQw6sSYWyKn5Suu3mpbknHKI_WzlxC-yCX0uTfDgZuE3LY8AaHQKTHczdziMqC2Q",
+                    "profileIcon": 6,
+                    "region": "kr"
+                },
+                {
+                    "name": "dakjshdkj",
+                    "id": "gDws4VQ_0b7xW977O4QbhanbycKeCuRC7eNDRjf1rTC1IoA",
+                    "puuid": "-wTWDyykrbupg6bjnBuiEa0sCqkiEKRD6yqQlQiXVJPPUt7_XZ7BShv4I1im2eTxwDlANNP4XdANOg",
+                    "profileIcon": 4690,
+                    "region": "kr"
+                },
+                {
+                    "name": "mid fekar",
+                    "id": "dZgj7BaIaBS20QsbBI78LwgPrZ-K9CsnIOQWfgjVx_IXKHg",
+                    "puuid": "js0y2HGG7KP0oD6zf7wwcMjbDGvcuwYmKffiQzKemJKdxiGZ37BDO6iWl_vo9p5T2mneAvvF6Qmv2A",
+                    "profileIcon": 13,
+                    "region": "na1"
+                },
+                {
+                    "name": "wincg",
+                    "id": "Hdo4CjkU0i_kFrzjyMdr3CUxpgF0V1WiiRUMAf1C760_YgrZbESklZJNdw",
+                    "puuid": "R_Z2B873Y_6K-xr-obdB73t8GSnjlYDwAosI9F_j612SrUl4DmWVXU393RiTz1Hl2gDaJIGSwVgHzg",
+                    "profileIcon": 7,
+                    "region": "euw"
+                },
+                {
+                    "name": "hide on stream",
+                    "id": "-r81iubST3z3MhYB-qXXPII4ShnWgkqn2lNVyEMPQzNxLktpC8n3EosgSQ",
+                    "puuid": "26Bgc-NG1PHZ2Szt3noB5ptQ4DTCijpvTd0s7VSOJxyHnjB5WtveZfqY4p_4N9Fno7HIccg75W0tdA",
+                    "profileIcon": 5290,
+                    "region": "euw"
+                },
+                {
+                    "name": "Koearn",
+                    "id": "E4PmhGrrUGx6-44FtNdEvTi-gOOnV0Q1OEgegcUStUqUc8-j",
+                    "puuid": "qyRrpWu2rvvmulnrSAORJ5WSk5G5BmXfs9ItveJBOooihRpaPiI-n4-NjYPUtPaM_i13nYLCGg5HIA",
+                    "profileIcon": 26,
+                    "region": "euw"
+                }
+            ]
+        },
+        {
+            "player": "Gumayusi",
+            "team": 523,
+            "league": "LCK",
+            "role": "bottom",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "T1 Gumayusi",
+                    "id": "ZP2Jz_l3ClX3-_RQ_DVIja6w7IY3Xbvt19HjnW9fgfJP4Ak",
+                    "puuid": "4QIBQUg0LCPFo44gmZn-4e2gcPlFubBtV4ptrVWQ0amPn_-oEQYAclViJR7ZyOG6bfnIDb-QZ2uz6A",
+                    "profileIcon": 7,
+                    "region": "kr"
+                },
+                {
+                    "name": "구마유시",
+                    "id": "75qopyxQYvMfmmJALOtfR-3IfDVY_1VY_uBbt6YVAMAb96U",
+                    "puuid": "BzczWjzeuEM2jRqq_WiO6KgtTTyBO_uh2N7d1ydexgccGj-8PH5i3ANX5bdNCoOzhZiNTJ3Y2Jabhw",
+                    "profileIcon": 4574,
+                    "region": "kr"
+                },
+                {
+                    "name": "Giant Monster",
+                    "id": "3kax4cUrHQPh-YZE50sBUE10ja8UXaXDFXM59CiPM6Lx-QYUL1xqm1bRgg",
+                    "puuid": "zs4s2ULFNm5kafdo4_uoFkwXlUNCGIjQPQ_q5Fijmi7EuW4qU1nj0Bdznwy1CocCvmTPLNUMxagoRg",
+                    "profileIcon": 5319,
+                    "region": "kr"
+                }
+            ]
+        },
+        {
+            "player": "Keria",
+            "team": 523,
+            "league": "LCK",
+            "role": "support",
+            "stream": "",
+            "accounts": [
+                {
+                    "name": "역천괴",
+                    "id": "001_UpOApgta043wW0cEblLygNK2e86YoJ3IqVMa9YoA_5s",
+                    "puuid": "S0ZBzELpMyVxXO_TNLoCrPo6__pjgJJLnP_viLHydjUFKQv8en_ymWHAI9gVU5uDsEMHiBLIrUGZ5w",
+                    "profileIcon": 5419,
+                    "region": "kr"
+                },
+                {
+                    "name": "류엔빌리지",
+                    "id": "Ngq0FkjbV8UtTKP91VVpQPteu7fIXkGfOzORdM_UrUECFxY",
+                    "puuid": "W5DlVjmDDhZE5Uy-eUDd46rcwcyw8jJa8e37nOsyYtak26y0zwM08ZScWm7e0bKIRPFPsVfbyQpxwQ",
+                    "profileIcon": 5414,
+                    "region": "kr"
+                },
+                {
+                    "name": "PurpleKeria",
+                    "id": "",
+                    "puuid": "",
+                    "profileIcon": 0,
+                    "region": "kr"
+                },
+                {
+                    "name": "The Kid Keria",
+                    "id": "zOHjLH0y21GtCZX74MRMVeHQ62UriQBjjZr9wvGXMuvkb1dmvrP4nSjAMA",
+                    "puuid": "-rn3zoPiT3MyPcuLwfWoK0csqkMo_0WEh8owfDabNXlth8iPkoO7_68CypeNX8FIRvy5HkdP65t6HA",
+                    "profileIcon": 7,
+                    "region": "kr"
+                }
+            ]
+        }
+    ]
+}

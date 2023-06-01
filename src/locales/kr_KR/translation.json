@@ -1,0 +1,258 @@
+{
+    "modes": {
+        "ARAM": "ARAM",
+        "URF": "URF",
+        "all": "모두",
+        "normalBlind": "정상적인 블라인드",
+        "normalDraft": "일반 초안",
+        "rankedFlex": "플렉스 순위",
+        "rankedSoloDuo": "솔로/듀오 순위"
+    },
+    "regions": {
+        "br": "BR",
+        "eun": "EUN",
+        "euw": "EUW",
+        "jp": "JP",
+        "kr": "KR",
+        "na": "NA",
+        "oce": "OCE",
+        "ru": "RU",
+        "world": "세계"
+    },
+    "roles": {
+        "any": "어느",
+        "bottom": "맨 아래",
+        "jungle": "밀림",
+        "middle": "가운데",
+        "support": "지원하다",
+        "top": "맨 위"
+    },
+    "filters": {
+        "title": "필터",
+        "sortGroup": "정렬/그룹",
+        "regions": "지역",
+        "roles": "역할",
+        "teams": "팀",
+        "champions": "챔피언",
+        "reset": "초기화"
+    },
+    "cq": {
+        "pages": {
+            "streams": {
+                "title": "스트림"
+            },
+            "leaderboards": {
+                "title": "리더 보드",
+                "controls": {
+                    "rank": "분할 순위",
+                    "lp": "LP",
+                    "name": "이름",
+                    "socials": "소셜"
+                }
+            },
+            "matches": {
+                "title": "성냥"
+            }
+        },
+        "title": "챔피언 큐"
+    },
+    "settings": {
+        "pages": {
+            "shortcuts": {
+				"title": "키 바인드"
+            },
+            "accessability": {
+				"title": "접근성"
+            },
+            "about": {
+                "title": "에 대한",
+                "description": "PROSPEC 은 프로 프 리그 오브 레전드 플레이어를 추적하고 관중하기위한 무료 및 오픈 소스 데스크탑 클라이언트입니다.이 응용 프로그램은 일종의 '업그레이드'또는 OP.GG의 'Pro Matches'기능에 대한 대안입니다.",
+                "thanks": {
+                    "title": "감사",
+                    "Jason Chan": "기본 앱 배경 앙상블.기타 챔피언 스플래시 아트.",
+                    "Sephi Lash": "카타리나 스플래시 아트 워크.",
+                    "Adrien Gonzalez": "다양한 챔피언 스플래시 아트 컨셉.케이틀린.Jhin.",
+                    "Riot Games": "챔피언 스플래시 아트, 챔피언 아이콘, 프로필 아이콘 등",
+                    "Metafy.gg": "챔피언 스플래시 아트 컷 아웃."
+                },
+                "changelog": "변경 로그",
+                "package": "타사 소프트웨어 - 라이센스",
+                "github": "깃허브",
+                "checkForUpdates": "업데이트 확인"
+            },
+            "application": {
+                "items": {
+                    "Accent": {
+						"description": "",
+                        "title": "악센트"
+                    },
+                    "appScale": {
+						"description": "",
+                        "title": "앱 스케일"
+                    },
+                    "appLanguage": {
+						"description": "",
+                        "title": "언어"
+                    },
+                    "dark": {
+						"description": "",
+                        "title": "어두운"
+                    },
+                    "notifications": {
+                        "description": "좋아하는 프로에는 게임을 시작할 때 알림을받습니다 (자동 새로 고침)",
+                        "title": "좋아하는 알림"
+                    },
+                    "hardwareAcceleration": {
+                        "description": "하드웨어 가속도는 GPU를 사용하여 PROSPEC을보다 원활하게 실행하게합니다",
+                        "title": "하드웨어 가속"
+                    },
+                    "showAnimations": {
+						"description": "UI 애니메이션 앱을 넓게 보여줍니다",
+						"title": "애니메이션"
+					},
+                    "keyboardMode": {
+                        "description": "키보드를 사용하여 앱 탐색을 활성화합니다",
+                        "title": "키보드 모드"
+                    },
+                    "light": {
+						"description": "",
+                        "title": "빛"
+                    },
+                    "minimizeToTray": {
+                        "description": "닫기 버튼은 종료되지 않고 최소화해야합니다",
+                        "title": "트레이를 최소화하십시오"
+                    },
+                    "openOnStartup": {
+						"description": "",
+                        "title": "스타트 업에 열립니다"
+                    },
+                    "useBackground": {
+                        "description": "앱이 Splash Art와 같은 배경 이미지를 표시하는지 여부를 선택하십시오",
+                        "title": "배경을 사용하십시오"
+                    },
+                    "randomBackground": {
+                        "description": "챔피언 풀에서 무작위로 선택할 앱 배경을 선택하거나 특정 기본값으로 설정하십시오",
+                        "title": "무작위 배경"
+                    },
+                    "liveBackground": {
+                        "description": "기본 이미지 대신 스플래시 아트의 애니메이션 버전을 사용합니다 (가능하다면)",
+                        "title": "라이브 배경"
+                    },
+                    "system": {
+						"description": "",
+                        "title": "체계"
+                    },
+                    "oled": {
+						"description": "",
+                        "title": "OLED"
+                    },
+                    "appTheme": {
+						"description": "",
+                        "title": "주제"
+                    }
+                },
+                "title": "신청"
+            },
+            "content": {
+                "items": {
+                    "autoRefresh": {
+						"description": "",
+                        "title": "자동 새로 고침"
+                    },
+                    "card": {
+						"description": "",
+                        "title": "카드"
+                    },
+                    "list": {
+						"description": "",
+                        "title": "목록"
+                    },
+                    "listLayout": {
+                        "title": "목록 레이아웃"
+                    },
+                    "refreshInterval": {
+                        "description": "전문가 목록을 새로 고치기 위해 몇 초/분 (LOL API 요율 제한으로 인해 3m+ 권장합니다)",
+                        "title": "새로 고침 간격"
+                    },
+                    "showRandomSkins": {
+                        "description": "기본 피부 아트 대신 임의의 피부 배경을 표시합니다",
+                        "title": "임의의 스킨을 보여주십시오"
+                    },
+                    "showSummonerIds": {
+                        "description": "게이머 태그 (Faker) 대신 플레이어 소환사 ID (Hide on bush)를 표시합니다",
+                        "title": "소환사 ID를 보여줍니다"
+                    },
+                    "showTeamLogos": {
+                        "description": "카드로 현재 챔피언 대신 팀 로고를 표시합니다",
+                        "title": "팀 로고를 보여줍니다"
+                    },
+                    "useCutouts": {
+                        "description": "스플래시 아트를로드하는 대신 투명 챔피언 컷 아웃을 사용합니다",
+                        "title": "컷 아웃을 사용하십시오"
+                    },
+                    "showUnavailable": {
+                        "description": "현재 관중을 사용할 수없는 플레이어 카드를 표시합니다 (Spectator API 또는 플레이어의 오류가 현재 플레이되지 않습니다)",
+                        "title": "사용할 수 없음을 보여주십시오"
+                    }
+                },
+                "title": "콘텐츠"
+            },
+            "language": {
+                "title": "언어",
+                "add": "원하는 언어가 보이지 않습니까? <a title=https://github.com/956MB/PROSPEC/tree/master/src/locale href=https://github.com/956MB/PROSPEC/tree/master/src/locale target=\"_blank\" rel=\"noopener noreferrer\">그것을 추가하십시오!</a>"
+            }
+        },
+        "title": "선호도",
+		"close": "닫다"
+    },
+    "titlebar": {
+        "lastRefresh": "마지막 새로 고침: {{insert}}",
+        "searchPlaceholder": "검색",
+        "searchSettingsPlaceholder": "검색 설정",
+        "searchPlayersPlaceholder": "검색 플레이어"
+    },
+    "sidebar": {
+        "settings": "설정",
+        "live": "게임을 찾으십시오",
+        "players": "플레이어 데이터베이스",
+        "history": "최근 게임",
+        "cq": "챔피언 큐",
+        "favorites": "즐겨 찾기"
+    },
+    "titles": {
+        "favorites": "즐겨 찾기",
+        "all": "모든 플레이어",
+        "accounts": "계정"
+    },
+    "tooltips": {
+        "playerUnavailable": "{{insert}} 게임에 있지 않거나 관중을 사용할 수 없습니다",
+        "noFavorites": "즐겨 찾기가 추가되지 않았습니다",
+        "noPlayersLoaded": "선수가로드되지 않았습니다",
+        "copy": "복사",
+        "copied": "복사",
+        "show": "보여 주다",
+        "hide": "숨다"
+    },
+    "notifications": {
+        "gameStart": "방금 게임을 시작했습니다!",
+        "live": "방금 사라졌습니다!"
+    },
+    "menus": {
+        "spectate": "조심스럽게",
+        "livegame": "라이브 게임",
+        "twitch": "Twitch",
+        "afreeca": "Afreeca",
+        "favorite": "가장 좋아하는",
+        "unfavorite": "좋지 않은"
+    },
+    "tags": {
+        "FIXED": "결정된",
+        "IMPROVED": "향상",
+        "ADDED": "추가",
+        "REMOVED": "제거됨"
+    },
+    "language": {
+        "text": "한국인",
+        "lang": "한국인"
+    }
+}

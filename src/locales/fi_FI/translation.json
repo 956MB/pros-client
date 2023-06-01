@@ -1,0 +1,249 @@
+{
+    "modes": {
+        "ARAM": "ARAM",
+        "URF": "URF",
+        "all": "Kaikki",
+        "normalBlind": "Normaali sokea",
+        "normalDraft": "Normaali luonnos",
+        "rankedFlex": "Sijoitus flex",
+        "rankedSoloDuo": "Sijoitus yksin/duo"
+    },
+    "regions": {
+        "br": "BR",
+        "eun": "EUN",
+        "euw": "EUW",
+        "jp": "JP",
+        "kr": "KR",
+        "na": "NA",
+        "oce": "OCE",
+        "ru": "RU",
+        "world": "Maailman"
+    },
+    "roles": {
+        "any": "Minkä tahansa",
+        "bottom": "Pohja",
+        "jungle": "Viidakko",
+        "middle": "Keski-",
+        "support": "Tuki",
+        "top": "Ylhäältä"
+    },
+    "cq": {
+        "pages": {
+            "streams": {
+                "title": "Virrat"
+            },
+            "leaderboards": {
+                "title": "Tulostaulut",
+                "controls": {
+                    "rank": "SIJOITUS",
+                    "lp": "LP",
+                    "name": "NIMI",
+                    "socials": "SOSIAALIT"
+                }
+            },
+            "matches": {
+                "title": "Ottelut"
+            }
+        },
+        "title": "Mestarit jono"
+    },
+    "settings": {
+        "pages": {
+            "shortcuts": {
+                "title": "Pikanäppäimet"
+            },
+            "accessability": {
+				"title": "Saavutettavuus"
+            },
+            "about": {
+                "title": "Tietoja",
+                "description": "PROSPEC on ilmainen ja avoimen lähdekoodin työpöytä -asiakas Professional League of Legends -pelaajien seurantaan ja katsomiseen.Tämä sovellus on eräänlainen 'päivitys' tai vaihtoehto OP.GG: n 'Pro Matches' -ominaisuudelle.",
+                "thanks": {
+                    "title": "Kiitos",
+                    "Jason Chan": "Oletussovelluksen taustayhtye.Misc Champion Splash Art.",
+                    "Sephi Lash": "Katarina Splash -teokset.",
+                    "Adrien Gonzalez": "Erilaiset mestari roiskeitaiteen käsitteet.Caitlyn.Jhin.",
+                    "Riot Games": "Champion Splash Art, Champion -kuvakkeet, profiilikuvakkeet jne.",
+                    "Metafy.gg": "Champion Splash Art Cutouts."
+                },
+                "changelog": "Vaihtosuunta",
+                "package": "Kolmannen osapuolen ohjelmisto - lisenssi (t)",
+                "github": "Github",
+                "checkForUpdates": "Tarkista päivitykset"
+            },
+            "application": {
+                "items": {
+                    "Accent": {
+						"description": "",
+                        "title": "Aksentti"
+                    },
+                    "appScale": {
+						"description": "",
+                        "title": "Sovellusasteikko"
+                    },
+                    "appLanguage": {
+						"description": "",
+                        "title": "Kieli"
+                    },
+                    "dark": {
+						"description": "",
+                        "title": "Tumma"
+                    },
+                    "notifications": {
+                        "description": "Suosikki ammattilaiset saavat ilmoituksia, kun he alkavat peliä (automaattinen päivitys päällä)",
+                        "title": "Suosikkiilmoitukset"
+                    },
+                    "hardwareAcceleration": {
+                        "description": "Laitteistoki",
+                        "title": "Laitteistokiihdytys"
+                    },
+                    "showAnimations": {
+						"description": "Näytä UI -animaatiosovellus leveäksi",
+						"title": "Animaatiot"
+					},
+                    "keyboardMode": {
+                        "description": "Mahdollistaa sovelluksen navigoinnin näppäimistöllä",
+                        "title": "Näppäimistötila"
+                    },
+                    "light": {
+						"description": "",
+                        "title": "Valaistus"
+                    },
+                    "minimizeToTray": {
+                        "description": "Sulje -painikkeen tulisi minimoida, ei poistua",
+                        "title": "Minimoida tarjotin"
+                    },
+                    "openOnStartup": {
+						"description": "",
+                        "title": "Avaa käynnistyksen yhteydessä"
+                    },
+                    "useBackground": {
+                        "description": "Valitse, näyttääkö sovellus taustakuvia, kuten Splash Art",
+                        "title": "Käytä taustoja"
+                    },
+                    "randomBackground": {
+                        "description": "Valitse APP -tausta, joka valitaan satunnaisesti Champion Poolista tai aseta se tiettyyn oletusarvoon",
+                        "title": "Satunnainen tausta"
+                    },
+                    "liveBackground": {
+                        "description": "Käyttää roisketaiteen animaatiota oletuskuvan sijasta (Jos mahdollista)",
+                        "title": "Live -taustat"
+                    },
+                    "system": {
+						"description": "",
+                        "title": "Järjestelmä"
+                    },
+                    "oled": {
+						"description": "",
+                        "title": "OLED"
+                    },
+                    "appTheme": {
+						"description": "",
+                        "title": "Teema"
+                    }
+                },
+                "title": "Soveltaminen"
+            },
+            "content": {
+                "items": {
+                    "autoRefresh": {
+						"description": "",
+                        "title": "Automaattinen virkistäminen"
+                    },
+                    "card": {
+						"description": "",
+                        "title": "Kortti"
+                    },
+                    "list": {
+						"description": "",
+                        "title": "Lista"
+                    },
+                    "listLayout": {
+						"description": "",
+                        "title": "Listata asettelu"
+                    },
+                    "refreshInterval": {
+                        "description": "Kuinka monta sekuntia/min päivittää ammattilaisten luettelo (3M+ Suositellaan LOL API -nopeusrajojen vuoksi)",
+                        "title": "Virkistysväli"
+                    },
+                    "showRandomSkins": {
+                        "description": "Näyttää satunnaiset ihotaustat oletusarvoisen ihotaiteen sijasta",
+                        "title": "Näytä satunnaiset nahat"
+                    },
+                    "showSummonerIds": {
+                        "description": "Näyttää Player Summoner ID (Hide on bush) Gamertagin (Faker) sijasta",
+                        "title": "Näytä Summoner IDS"
+                    },
+                    "showTeamLogos": {
+                        "description": "Näyttää joukkueen logon nykyisen mestarin sijasta kortissa",
+                        "title": "Näytä tiimin logot"
+                    },
+                    "useCutouts": {
+                        "description": "Käyttää läpinäkyviä mestarien leikkauksia roisketaiteen lataamisen sijasta",
+                        "title": "Käytä leikkauksia"
+                    },
+                    "showUnavailable": {
+                        "description": "Näyttää pelaajien kortteja, joita ei tällä hetkellä ole käytettävissä katsottavaksi (Virhe Spectator API: ssa tai pelaaja ei tällä hetkellä pelaa)",
+                        "title": "Ei ole käytettävissä"
+                    }
+                },
+                "title": "Sisältö"
+            },
+            "language": {
+                "title": "Kieli",
+                "add": "Etkö näe haluamasi kieltä? <a title=https://github.com/956MB/PROSPEC/tree/master/src/locale href=https://github.com/956MB/PROSPEC/tree/master/src/locale target=\"_blank\" rel=\"noopener noreferrer\">Lisää se!</a>"
+            }
+        },
+        "title": "Asetukset"
+    },
+    "titlebar": {
+        "lastRefresh": "Viimeinen virkistys: {{insert}}",
+        "searchPlaceholder": "Hae",
+        "searchSettingsPlaceholder": "Hakuasetukset",
+        "searchPlayersPlaceholder": "Hakupelaajat"
+    },
+    "sidebar": {
+        "settings": "Asetukset",
+        "live": "Löytää pelejä",
+        "players": "Pelaajatietokanta",
+        "history": "Viimeaikaiset pelit",
+        "cq": "Mestarit jono",
+        "favorites": "Suosikit"
+    },
+    "titles": {
+        "favorites": "Suosikit",
+        "all": "Kaikki pelaajat",
+        "accounts": "Tilit"
+    },
+    "tooltips": {
+        "playerUnavailable": "{{insert}} ei joko pelissä tai katsoja ei ole käytettävissä",
+        "noFavorites": "Ei suosikkeja lisätty",
+        "noPlayersLoaded": "Pelaajia ei ladattu",
+        "copy": "Kopio",
+        "copied": "Kopioitu",
+        "show": "Näytä",
+        "hide": "Piilottaa"
+    },
+    "notifications": {
+        "gameStart": "on juuri aloittanut pelin!",
+        "live": "on juuri mennyt elämään!"
+    },
+    "menus": {
+        "spectate": "Varovasti",
+        "livegame": "Live -peli",
+        "twitch": "Twitch",
+        "afreeca": "Afreeca",
+        "favorite": "Suosikki",
+        "unfavorite": "Inhokki"
+    },
+    "tags": {
+        "FIXED": "KIINTEÄ",
+        "IMPROVED": "PARANTUNUT",
+        "ADDED": "LISÄ",
+        "REMOVED": "POISTETTU"
+    },
+    "language": {
+        "text": "Suomi",
+        "lang": "Suomalainen"
+    }
+}

@@ -1,0 +1,173 @@
+:root {
+	--button-disabled: rgba(69, 69, 69, 0.25);
+	--button-normal: rgba(69, 69, 69, 0.5);
+	--button-pressed: rgba(69, 69, 69, 0.6);
+	--button-pressedSelected: rgba(69, 69, 69, 0.9);
+	--button-selected: rgba(79, 79, 79, 0.8);
+	--button-selectedHover: rgba(79, 79, 79, 0.95);
+    --searchbar-input-text-fg: rgba(255, 255, 255, 0.8);
+	--searchbar-active-input-text-fg: rgba(255, 255, 255, 0.35);
+	--searchbar-border-focus: rgba(255, 255, 255, 0.1);
+	--searchbar-placeholder: rgba(255, 255, 255, 0.2);
+	--searchbar-placeholder-focus: rgba(255, 255, 255, 0.3);
+    --searchbar-normal: rgba(0, 0, 0, 1.0);
+}
+
+.search-bar {
+    display: flex;
+    position: relative;
+    pointer-events: all;
+	border-radius: 0;
+    flex: 1;
+	background: var(--searchbar-normal);
+}
+
+.search-bar input[type="text"] {
+	pointer-events: all;
+	flex: 1;
+    width: 100%;
+    margin: 0;
+	height: 32px;
+	padding: 1px 30px 0 10px;
+	display: flex;
+    flex-direction: row;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+	background: var(--searchbar-normal);
+	text-decoration: none !important;
+	color: var(--searchbar-input-text-fg);
+	caret-color: white;
+}
+
+.ku_KZ .search-bar input[type="text"] {
+	font-family: "Khuzdulerebor_Rjno", "Inter_Medium", serif !important;
+	font-size: 9px !important;
+	letter-spacing: 1px !important;
+}
+
+.search-bar input[type="text"]:focus {
+    pointer-events: all;
+	text-decoration: none !important;
+	background: var(--searchbar-normal);
+}
+
+.reset-filter-button {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    font-family: "Inter_SemiBold", serif;
+	font-size: 11px;
+	color: var(--searchbar-input-text-fg);
+	white-space: nowrap;
+    padding: 1px 15px 0 15px;
+    margin: 0;
+    height: 32px;
+    cursor: pointer;
+}
+.ja_JP .reset-filter-button {
+    font-family: "NotoSansJP_Medium", "Inter_SemiBold", serif !important;
+}
+
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+.search-bar ::placeholder {
+	font-family: "Inter_Medium", serif;
+	font-size: 12px;
+	color: var(--searchbar-placeholder);
+	white-space: nowrap;
+}
+/* Microsoft Edge */
+.search-bar ::-ms-input-placeholder {
+	font-family: "Inter_Medium", serif;
+	font-size: 12px;
+	color: var(--searchbar-placeholder);
+	white-space: nowrap;
+}
+.br_BA .search-bar ::placeholder {
+	font-family: "ChmcBraille_nK5P", "Inter_Medium", serif !important;
+	font-size: 11px !important;
+	letter-spacing: 3px !important;
+}
+.br_BA .search-bar ::-ms-input-placeholder {
+	font-family: "ChmcBraille_nK5P", "Inter_Medium", serif !important;
+	font-size: 11px !important;
+	letter-spacing: 3px !important;
+}
+.ku_KZ .search-bar ::placeholder {
+    font-family: "Khuzdulerebor_Rjno", "Inter_Medium", serif !important;
+	font-size: 9px !important;
+	letter-spacing: 1px !important;
+	margin: -1px 0 0 0 !important;
+}
+.ku_KZ .search-bar ::-ms-input-placeholder {
+    font-family: "Khuzdulerebor_Rjno", "Inter_Medium", serif !important;
+	font-size: 9px !important;
+	letter-spacing: 1px !important;
+	margin: -1px 0 0 0 !important;
+}
+.ja_JP .search-bar ::placeholder {
+	font-family: "NotoSansJP_Medium", "Inter_Medium", serif !important;
+}
+.ja_JP .search-bar ::-ms-input-placeholder {
+	font-family: "NotoSansJP_Medium", "Inter_Medium", serif !important;
+}
+.kr_KR .search-bar ::placeholder {
+	font-family: "NotoSansKR_Medium", "Inter_Medium", serif !important;
+}
+.kr_KR .search-bar ::-ms-input-placeholder {
+	font-family: "NotoSansKR_Medium", "Inter_Medium", serif !important;
+}
+
+.search-bar input[type="text"]:focus::placeholder {
+	color: var(--searchbar-placeholder-focus);
+}
+
+.search-disabled,
+.search-disabled input[type="text"] {
+	pointer-events: none;
+	filter: grayscale(1) opacity(0.9) !important;
+}
+
+.icon-container {
+	display: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	right: 0;
+	height: 30px;
+	width: 30px;
+	border-radius: 0 5px 5px 0;
+	pointer-events: none;
+	z-index: 5 !important;
+    padding: 1px 0 0 0;
+}
+
+.icon-clickable {
+	pointer-events: all;
+	cursor: pointer;
+}
+
+.search-icon {
+	height: 14px;
+	width: 14px;
+	margin-top: 1px;
+	margin-right: 4px;
+	pointer-events: none;
+	user-select: none;
+}
+
+.close-icon {
+	display: block;
+	position: absolute;
+	pointer-events: none;
+	user-select: none;
+	height: 11px;
+	width: 11px;
+	top: 50%;
+	right: 11px;
+	transform: translateY(-50%);
+	opacity: 0.4;
+}
